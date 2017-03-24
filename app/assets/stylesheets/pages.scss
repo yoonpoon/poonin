@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Nimbus';
+    src: url(resources/NimbusSansDOT-BlacExte.otf);
+    -webkit-font-smoothing: antialiased;
+}
+
+
+@media screen and (max-width: 900px) {
+  .right_container {
+    visibility: hidden;
+    display: none;
+  }
+  .header {
+    visibility: hidden;
+    display: none;
+  }
+  hr {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+
+html {
+    font-size: 62.5%;
+    /*font-size: 1vw;*/
+}
+
+body {
+    padding: 2.5rem 5rem;
+}
+
+
+#logo {
+    font-size: 15.6rem;
+    font-family: "NimbusSansDOT-BlacExte";
+    letter-spacing: -.025em;
+}
+
+.contact {
+    font-size: 3.6rem;
+    margin-top: -5%;
+    margin-bottom: 15%;
+}
+
+.project {
+    margin-bottom: 6%;
+}
+
+.role {
+    font-family: "times";
+    font-size: 1.2rem;
+    letter-spacing: 0.01;
+    padding-bottom: 4.8%;
+}
+
+.number {
+    font-family: "times";
+    font-size: 15.6rem;
+    letter-spacing: -.1;
+    padding-right: 11%;
+}
+
+.number-2 {
+    font-family: "times";
+    font-size: 15.6rem;
+    letter-spacing: -.03;
+    padding-right: 7%;
+}
+
+.number-3 {
+    font-family: "times";
+    font-size: 15.6rem;
+    letter-spacing: -.04;
+    padding-right: 7%;
+}
+
+.client {
+    font-size: 15.6rem;
+    font-family: "times";
+    letter-spacing: -.015;
+    line-height: 76%;
+    padding-top: 2.5%;
+}
+
+.title {
+    font-family: "times";
+    font-size: 2.4rem;
+    font-style: italic;
+    padding-top: 1.9%;
+}
+
+.category {
+    font-family: "times";
+    font-size: 1.2rem;
+    letter-spacing: 0.01rem;
+    margin-top: 3.8rem;
+}
+
+.right_container {
+    padding-left: 7%;
+}
+
+.hr {
+    border-bottom: 3px solid #000;
+}
+
+.dis-box:hover .dis-overlay {
+    position: absolute;
+    width: 233px;
+    height: 311px;
+    z-index: 100;
+    background: transparent url("assets/dis.jpg") no-repeat;
+    cursor: pointer;
+}
+
+.dis-box {
+    background-color: #000;
+    width: 233px;
+    height: 311px;
+}
+
+.metal-box {
+    background-color: #000;
+    width: 233px;
+    height: 311px;  
+}
+
+.metal-box:hover .metal-overlay {
+    position: absolute;
+    width: 233px;
+    height: 311px;
+    z-index: 100;
+    background: transparent url("assets/metal.jpg") no-repeat;
+    cursor: pointer;
+}
+
+.dis-border {
+    margin-left: 19%;
+    margin-right: 11%;
+    margin-top: -1.5%;
+    border-width: 1px;
+    border-color: black;
+}
+
+.metal-border {
+    margin-left: 29.5%;
+    margin-right: 11%;
+    margin-top: -1.5%;
+    border-width: 1px;
+    border-color: black;
+}   
