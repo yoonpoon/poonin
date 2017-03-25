@@ -1,6 +1,7 @@
 GIT
-  remote: https://github.com/contentful/contentful_model.git
-  revision: 771c484bb219c0f2044015a707765da10839384b
+  remote: https://github.com/sebbean/contentful_model.git
+  revision: 9c132b933f469c6009b8cfb2312afd71066f53df
+  branch: patch-1
   specs:
     contentful_model (0.2.0)
       activesupport
@@ -10,11 +11,12 @@ GIT
       require_all
 
 GIT
-  remote: https://github.com/contentful/contentful_rails.git
-  revision: 069867770c0b69a9f9b3b36727f89953cb70e04e
+  remote: https://github.com/sebbean/contentful_rails.git
+  revision: 5c7ed3d8e1128ebb60d0358d34839cf604f4596b
+  branch: patch-1
   specs:
     contentful_rails (0.3.0)
-      contentful_model (>= 0.1.7)
+      contentful_model (>= 0.2.0)
       rails (>= 4.1.8)
       redcarpet (~> 3.2)
 
