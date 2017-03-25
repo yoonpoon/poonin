@@ -5,8 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'contentful_model'
-gem 'contentful_rails'
+gem 'contentful_model', github: 'contentful/contentful_model'
+gem 'contentful_rails', github: 'contentful/contentful_rails'
 
 
 
