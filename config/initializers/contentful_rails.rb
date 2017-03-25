@@ -9,9 +9,7 @@ ContentfulRails.configure do |config|
   config.default_locale = 'en-US'
   config.contentful_options = {
     entry_mapping: {
-      'home'    => Home,
-      'project' => Project,
-      'slide'   => Slide
+      
     }
   }
 end

@@ -1,25 +1,3 @@
-GIT
-  remote: https://github.com/sebbean/contentful_model.git
-  revision: 9c132b933f469c6009b8cfb2312afd71066f53df
-  branch: patch-1
-  specs:
-    contentful_model (0.2.0)
-      activesupport
-      contentful
-      contentful-management (~> 1.0)
-      redcarpet
-      require_all
-
-GIT
-  remote: https://github.com/sebbean/contentful_rails.git
-  revision: 5c7ed3d8e1128ebb60d0358d34839cf604f4596b
-  branch: patch-1
-  specs:
-    contentful_rails (0.3.0)
-      contentful_model (>= 0.2.0)
-      rails (>= 4.1.8)
-      redcarpet (~> 3.2)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -73,16 +51,31 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
-    contentful (2.0.0)
-      http (> 0.8, < 3.0)
+    contentful (0.12.0)
+      http (~> 1.0)
+      json (~> 1.8)
       multi_json (~> 1)
     contentful-management (1.5.0)
       http (~> 1.0)
       json (~> 1.8)
       multi_json (~> 1)
+    contentful_model (0.2.0)
+      activesupport
+      contentful (~> 0.9)
+      contentful-management (~> 1.0)
+      redcarpet
+      require_all
+    contentful_rails (0.3.0)
+      contentful_model (>= 0.1.7)
+      rails (>= 4.1.8)
+      redcarpet (~> 3.2)
     debug_inspector (0.0.2)
     domain_name (0.5.20170223)
       unf (>= 0.0.5, < 1.0.0)
+    dotenv (2.2.0)
+    dotenv-rails (2.2.0)
+      dotenv (= 2.2.0)
+      railties (>= 3.2, < 5.1)
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.18)
@@ -205,8 +198,9 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
-  contentful_model!
-  contentful_rails!
+  contentful_model
+  contentful_rails
+  dotenv-rails
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
