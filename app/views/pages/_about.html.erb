@@ -1,16 +1,28 @@
     <div class="bio">
       <div class="max-width-12">
         <div class="clearfix">
-          <div class="sm-col sm-col-6 md-col-5 lg-col-12">
+          <div class="sm-col sm-col-6 md-col-5 lg-col-11">
             <div class="about">about — </div>
               <div class="about-text">
-                <%= @nav.about %>
+                <%= parse_markdown @nav.about %>
               </div>
              <div class="services"> services — </div>
               <div class="services-text">
                 <%= parse_markdown @nav.services %>
               </div>
+              <div class="contact-info"> contact — </div>
+                <div class="contact-info-text">
+                  <%= parse_markdown @nav.contact %>
+                </div>
+              <div class="ig"> instagram — </div>
+                <div class="ig-text">
+                  <%= parse_markdown @nav.instagram %>
+                </div>   
+              <div class="mobile"> mobile — </div>
+                <div class="mobile-text">
+                  <%= parse_markdown @nav.mobile %>
+                </div>                              
+              </div>
             </div>
           </div>
         </div>
-    </div>
