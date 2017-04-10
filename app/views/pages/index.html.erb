@@ -30,11 +30,10 @@
       <img class="fit thumb mb2"
         <% page.featuredImage.first.tap do |asset| %>
         <%= image_tag asset.file.url %>
-        <% end %>
-      />
+        <% end %>/>
       <div class="client-title center"><%= page.title %></div>
       <div class="project-title center"><%= page.caption %></div>
-      <div class="project-role center pb2">— <%= page.role %></div>
+      <div class="project-role center pb2">—<%= page.role %></div>
     </div>
   </div>
 </div>
@@ -102,8 +101,6 @@ $(document).ready(function(){
         $(".grid").show();
     });
 });
-
-
 </script>
 
 <!--   <div class="clearfix">
