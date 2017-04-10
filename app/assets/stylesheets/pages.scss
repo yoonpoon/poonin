@@ -2,190 +2,211 @@
     font-family: 'Nimbus';
     src: url(resources/NimbusSansDOT-BlacExte.otf);
     -webkit-font-smoothing: antialiased;
-    font-family: 'Executive';
-    src: url(resources/Executive-45Light.otf);
-    -webkit-font-smoothing: antialiased;    
 }
 
-@media only screen and (max-width: 600px) {
-    .grid-item {
-      width: 114px!important;
-      height:20vh!important;
+
+@media screen and (max-width: 900px) {
+  .right_container {
+    visibility: hidden;
+    display: none;
   }
-    .nav {
-      margin-top: 0!important;
-    }
-
-    #logo {
-      font-size: 15.7vw!important;
-    }
-
-/*    .nav li {
-      display: inline-block!important;
-    }*/
+  .header {
+    visibility: hidden;
+    display: none;
+  }
+  hr {
+    visibility: hidden;
+    display: none;
+  }
 }
 
-html { font-size: calc(.5px + 1vw) }
+a {
+  color: black;
+  text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    /*font-size: 1vw;*/
+}
 
 body {
-  padding-top:1.5rem;
-  padding-bottom:1.5rem;
-  padding-right: 4.8rem;
-  padding-left: 4.8rem;
-  font-family: "times";
-  letter-spacing: 0.01em;
+    padding: 2.5rem 5rem;
 }
 
-/*input, button, submit
-{
-  border:none;
-  font-size: 18px!important;
-  font-family: "times"!important;
-  line-height: 18px!important;
-  letter-spacing: 0rem!important;
-  margin-bottom: 0rem!important;  
-}*/
-
-.header {
-  padding-bottom: 5vw;
-}
 
 #logo {
-  font-size: 10vw;
-  font-family: "NimbusSansDOT-BlacExte";
-  letter-spacing: -.25vw;
-  color:#600001;
-  width: 50%;
-  clear: both;
+    font-size: 15.6rem;
+    font-family: "NimbusSansDOT-BlacExte";
+    letter-spacing: -.025em;
 }
 
-.nav {
-  margin-top: 10vh;
-  color:#600001;   
+.contact {
+    font-size: 3.6rem;
+    margin-top: -5%;
+    margin-bottom: 15%;
 }
 
-.nav li {
-  font-size: 18px!important;
-  font-family: "times"!important;
-  line-height: 18px!important;
-  letter-spacing: 0rem!important;
-  margin-bottom: 0rem!important;
+.project {
+    margin-bottom: 6%;
 }
 
-.project-header {
-  font-family: "times";
-  font-size: 18px;
-  color:#600001; 
-  margin-bottom: 2rem; 
+.role {
+    font-family: "times";
+    font-size: 1.2rem;
+    letter-spacing: 0.01;
+    padding-bottom: 4.8%;
 }
 
-.client-title {
-  font-family: "times";
-  font-size: 13px;
-  line-height: 0.9rem;
-  color:#600001; 
+.number {
+    font-family: "times";
+    font-size: 15.6rem;
+    letter-spacing: -.1;
+    padding-right: 11%;
 }
 
-.project-title {
-  font-family: "times";
-  font-size: 13px;
-  color:#600001; 
-  font-style: italic;
+.number-2 {
+    font-family: "times";
+    font-size: 15.6rem;
+    letter-spacing: -.03;
+    padding-right: 7%;
 }
 
-.project-role {
-  font-family: "times";
-  font-size: 10px;
-  color:#600001;
+.number-3 {
+    font-family: "times";
+    font-size: 15.6rem;
+    letter-spacing: -.04;
+    padding-right: 7%;
 }
 
-.index {
-  display: none;
+.client {
+    font-size: 15.6rem;
+    font-family: "times";
+    letter-spacing: -.015;
+    line-height: 76%;
+    padding-top: 2.5%;
 }
 
-/* INDEX CSS */
-.client-list {
-  font-size: 12.2vw;
-  font-family: "times";
-  color: #600001;
-  margin: 0 auto;
-  line-height: 10.5rem;
-  letter-spacing: -.04rem;
-  margin-bottom: 8rem;
+.title {
+    font-family: "times";
+    font-size: 2.4rem;
+    font-style: italic;
+    padding-top: 1.9%;
 }
 
-li:hover {
-    color:#828180;
+.category {
+    font-family: "times";
+    font-size: 1.2rem;
+    letter-spacing: 0.01rem;
+    margin-top: 3.8rem;
+}
+
+.right_container {
+    padding-left: 7%;
+}
+
+.hr {
+    border-bottom: 3px solid #000;
+}
+
+.dis-box:hover .dis-overlay {
+    position: absolute;
+    width: 233px;
+    height: 311px;
+    z-index: 100;
+    background: transparent url("assets/dis.jpg") no-repeat;
     cursor: pointer;
 }
 
-#button:focus {
-  color:#828180;
+.dis-box {
+    background-color: #000;
+    width: 233px;
+    height: 311px;
 }
 
-#images:focus {
-  color:#828180;
+.metal-box {
+    background-color: #000;
+    width: 233px;
+    height: 311px;  
 }
 
-#information {
-  margin-bottom: 5.5rem;
+.metal-box:hover .metal-overlay {
+    position: absolute;
+    width: 233px;
+    height: 311px;
+    z-index: 100;
+    background: transparent url("assets/metal.jpg") no-repeat;
+    cursor: pointer;
 }
 
-.info-wrap {
-  font-family: "times";
-  font-size: 5vw;
-  color: #600001;
+.dis-border {
+    margin-left: 19%;
+    margin-right: 11%;
+    margin-top: -1.5%;
+    border-width: 1px;
+    border-color: black;
 }
 
-.info-byline {
-  margin-bottom: 3rem;
+.metal-border {
+    margin-left: 29.5%;
+    margin-right: 11%;
+    margin-top: -1.5%;
+    border-width: 1px;
+    border-color: black;
+}   
+
+.about {
+    font-size: 13.2rem;
+    font-family: NimbusSansDOT-BlacExte;
+    margin-top: 7rem;
 }
 
-#services, #contact {
-  margin-top: 5.5rem;
-  margin-bottom: 5.5rem;
+.about-text {
+    font-size: 7.2rem;
 }
 
-/* THUMBNAIL GRID */
-
-* { box-sizing: border-box; }
-
-/* force scrollbar, prevents initial gap */
-html { overflow-y: scroll; }
-
-body { font-family: sans-serif; }
-
-/* ---- grid ---- */
-
-.grid {
-  margin:0 auto;
+.services {
+    font-size: 12.0rem;
+    font-family:  NimbusSansDOT-BlacExte;
+    margin-top: 7rem;
 }
 
-/* clear fix */
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
+p {
+    margin: auto;
 }
 
-/* ---- .element-item ---- */
-
-/* 5 columns, percentage width */
-.grid-item {
-  float: left;
-  width: 151px;
-  height: 290px;
-/*  width: 150px;
-  height:220px;*/
+.services-text {
+    font-size: 7.2rem;
 }
 
-.project-num {
-  font-family: "times";
-  font-size: 14px;
-  color:#600001; 
-  text-align: center;
+.contact-info {
+    font-size: 12.0rem;
+    font-family:  NimbusSansDOT-BlacExte;
+    margin-top: 7rem;
 }
 
-.project-role {
-  margin-bottom: 3rem;
+.contact-info-text {
+    font-size: 7.2rem;
 }
+
+.ig {
+  font-size: 12.0rem;
+  font-family:  NimbusSansDOT-BlacExte;
+  margin-top: 3.5rem;
+
+}
+
+.ig-text {
+  font-size: 7.2rem;
+}
+
+.mobile {
+  font-size: 12.0rem;
+  font-family:  NimbusSansDOT-BlacExte;
+  margin-top: 3.5rem;  
+}
+
+.mobile-text {
+  font-size: 7.2rem;
+}
+
