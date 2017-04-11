@@ -9,3 +9,4 @@ class PagesController < ApplicationController
   def show
     @something = "hi"
   end
+end
