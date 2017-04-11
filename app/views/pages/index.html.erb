@@ -15,12 +15,12 @@
       <div class="clearfix">
         <div class="left_wrap">
            <div class="sm-col sm-col-6 md-col-5 lg-col-5 px6">
-             <div class="role"><%= @pages.role %> <hr class="dis-border"></div>
-             <div class="number-3 inline-block align-middle"><%= "%02d" % @pages.projectNumber %></div>
+             <div class="role"><%= page.role %> <hr class="dis-border"></div>
+             <div class="number-3 inline-block align-middle"><%= "%02d" % page.projectNumber %></div>
              <div class="featured_image inline-block align-middle">
               <div class="dis-box">
                 <span class="dis-overlay">
-                  <% @pages.featuredImage.first.tap do |asset| %>
+                  <% page.featuredImage.first.tap do |asset| %>
                     <%= image_tag asset.file.url %>
                   <% end %>
                 </span>
@@ -31,9 +31,9 @@
         <div class="right_wrap">
            <div class="sm-col sm-col-6 md-col-7 lg-col-7 px6">
             <div class="right_container">
-             <div class="category inline-block align-middle"><%= @pages.projectType %></div>
-             <div class="client inline-block align-middle"><%= @pages.title %></div>
-             <div class="title inline-block align-middle"><%= @pages.caption %></div>
+             <div class="category inline-block align-middle"><%= page.projectType %></div>
+             <div class="client inline-block align-middle"><%= page.title %></div>
+             <div class="title inline-block align-middle"><%= page.caption %></div>
             </div>
            </div>
         </div>   

@@ -2,7 +2,7 @@ class PagesController < ApplicationController
 
   def index
     @nav = Nav.all.load.first
-    @pages = @nav.pages
+    @pages = @nav.page
   end
 
 
