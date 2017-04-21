@@ -1,154 +1,71 @@
-<div class="max-width-12">
-  <div class="clearfix">
-    <div class="sm-col sm-col-6 md-col-5 lg-col-5 px6">
-      <div class="header">
-        <div id="logo">satomi</div>
-        <div class="contact">about + contact</div>
-      </div>
-    </div>
+
+<div class="clearfix header">
+  <div class="sm-col sm-col-8">
+    <div id="logo">satomi</div>
   </div>
+  <ul class="nav sm-col sm-col-4">
+    <div class="clearfix right">
+    <li id="button">Index /</li>
+    <li id="images">Thumbnails /</li>
+    <li id="contact-link"><a href="#contact">Contact</a></li>
+  </ul>        
 </div>
 
+<div class="project-header">Projects —</div>
+
 <% @pages.each do | page | %>
-  <div class="project">
-    <div class="max-width-12">
-      <div class="clearfix">
-        <div class="left_wrap">
-           <div class="sm-col sm-col-6 md-col-5 lg-col-5 px6">
-             <div class="role"><%= page.role %> <hr class="dis-border"></div>
-             <div class="number-3 inline-block align-middle"><%= "%02d" % page.projectNumber %></div>
-             <div class="featured_image inline-block align-middle">
-              <div class="dis-box">
-                <span class="dis-overlay">
-                  <% page.featuredImage.first.tap do |asset| %>
-                    <%= image_tag asset.file.url %>
-                  <% end %>
-                </span>
-              </div>
-             </div>
-           </div>              
-        </div>
-        <div class="right_wrap">
-           <div class="sm-col sm-col-6 md-col-7 lg-col-7 px6">
-            <div class="right_container">
-             <div class="category inline-block align-middle"><%= page.projectType %></div>
-             <div class="client inline-block align-middle"><%= page.title %></div>
-             <div class="title inline-block align-middle"><%= page.caption %></div>
-            </div>
-           </div>
-        </div>   
-      </div>
+  <div class="index max-width-12 mx-auto">
+    <div class="clearfix">
+      <ul class="client-list list-reset">
+        <li><%= link_to page.title, page.slug %></li>     
+      </ul>
     </div>
-  </div>  
+  </div>
 <% end %>
+
+<div class="lg-col-12 mx-auto">
+    <div class="grid">
+     <% @pages.each do | page | %> 
+      <div class="grid-item">
+        <div class="project-num mb2 mt2"><%= page.projectNumber %></div>
+        <img class="fit thumb mb2 ar-container"
+          <% page.featuredImage.first.tap do |asset| %>
+          <%= image_tag asset.file.url%>
+          <% end %>
+        <div class="client-title center"><%= page.title %></div>
+        <div class="project-title center"><%= page.caption %></div>
+        <div class="project-role center pb2"><%= page.role %></div>
+      </div>
+    <% end %> 
+    </div>   
+</div>
 
 <%= render 'about' %>
 
-<!-- <div class="project">
-  <div class="max-width-12">
-    <div class="clearfix">
-      <div class="left_wrap">
-         <div class="sm-col sm-col-6 md-col-5 lg-col-5 px6">
-           <div class="role">Art Direction <hr class="dis-border"></div>
-           <div class="number-3 inline-block align-middle">01</div>
-           <div class="featured_image inline-block align-middle">
-            <div class="dis-box">
-              <span class="dis-overlay"></span>
-            </div>
-           </div>
-         </div>              
-      </div>
-      <div class="right_wrap">
-         <div class="sm-col sm-col-6 md-col-7 lg-col-7 px6">
-          <div class="right_container">
-           <div class="category inline-block align-middle">Fashion Editorial</div>
-           <div class="client inline-block align-middle">DIS Magazine</div>
-           <div class="title inline-block align-middle">Vanessa Displaced</div>
-          </div>
-         </div>
-      </div>   
-    </div>
-  </div>
-</div>      
 
-<div class="project">
-  <div class="max-width-12">
-    <div class="clearfix">
-      <div class="left_wrap">
-         <div class="sm-col sm-col-6 md-col-5 lg-col-5 px6">
-           <div class="role">Art Direction + Design<hr class="metal-border"></div>
-           <div class="number-2 inline-block align-middle">02</div>
-           <div class="featured_image inline-block align-middle">
-            <div class="metal-box">
-              <span class="metal-overlay"></span>
-            </div>
-          </div>
-         </div>              
-      </div>
-      <div class="right_wrap">
-         <div class="sm-col sm-col-6 md-col-7 lg-col-7 px6">
-          <div class="right_container">
-           <div class="category inline-block align-middle">Poster Series</div>
-           <div class="client inline-block align-middle">Years of Metal</div>
-           <div class="title inline-block align-middle">The Years of Metal Are Finally Upon Us</div>
-          </div>
-         </div>
-      </div>   
-    </div>
-  </div>
-</div>  
+<script>  
 
-<div class="project">
-  <div class="max-width-12">
-    <div class="clearfix">
-      <div class="left_wrap">
-         <div class="sm-col sm-col-6 md-col-5 lg-col-5 px6">
-           <div class="role">Art Direction <hr class="dis-border"></div>
-           <div class="number-3 inline-block align-middle">03</div>
-           <div class="featured_image inline-block align-middle">
-            <div class="dis-box">
-              <span class="dis-overlay"></span>
-            </div>
-           </div>
-         </div>              
-      </div>
-      <div class="right_wrap">
-         <div class="sm-col sm-col-6 md-col-7 lg-col-7 px6">
-          <div class="right_container">
-           <div class="category inline-block align-middle">Fashion Editorial</div>
-           <div class="client inline-block align-middle">DIS Magazine</div>
-           <div class="title inline-block align-middle">Vanessa Displaced</div>
-          </div>
-         </div>
-      </div>   
-    </div>
-  </div>
-</div>          
+$('.grid').packery({
+    itemSelector: '.grid-item',
+    rowHeight: 0,
+    gutter: 70,
+    transitionDuration: 0,
+  });
 
-<div class="project">
-  <div class="max-width-12">
-    <div class="clearfix">
-      <div class="left_wrap">
-         <div class="sm-col sm-col-6 md-col-5 lg-col-5 px6">
-           <div class="role">Art Direction + Design<hr class="metal-border"></div>
-           <div class="number-2 inline-block align-middle">04</div>
-           <div class="featured_image inline-block align-middle">
-            <div class="metal-box">
-              <span class="metal-overlay"></span>
-            </div>
-          </div>
-         </div>              
-      </div>
-      <div class="right_wrap">
-         <div class="sm-col sm-col-6 md-col-7 lg-col-7 px6">
-          <div class="right_container">
-           <div class="category inline-block align-middle">Poster Series</div>
-           <div class="client inline-block align-middle">Years of Metal</div>
-           <div class="title inline-block align-middle">The Years of Metal Are Finally Upon Us</div>
-          </div>
-         </div>
-      </div>   
-    </div>
-  </div>
-</div>  
- -->
+$(document).ready(function(){
+    $("#button").click(function(){
+      $(".index").toggle();
+      $(".grid").hide();
+      $(".index").show();
+  });
+});
+
+$(document).ready(function(){
+    $("#images").click(function(){
+      $(".index").toggle();
+      $(".index").hide();
+      $(".grid").show();
+  });
+});
+
+</script>

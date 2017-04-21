@@ -1,3 +1,44 @@
-<h1> this is a show page </h1>
+<!-- <h1><%= @something %></h1> -->
 
-<%=  @something %>
+
+
+<div class="clearfix header">
+  <div class="sm-col sm-col-8">
+    <div id="logo">satomi</div>
+  </div>
+  <ul class="nav sm-col sm-col-4">
+    <div class="clearfix right">
+    <li id="button">Index /</li>
+    <li id="images">Thumbnails /</li>
+    <li id="contact-link"><a href="#contact">Contact</a></li>
+  </ul>        
+</div>
+<!-- <div class="close fixed z2 top-0 left-0 right-0 p4">
+  X
+</div> -->
+<div class="img-wrap max-width-12 mx-auto">
+  <% @pages.each do | page | %>
+    <img class="fit"/>
+      <% page.featuredImage.first.tap do |asset| %>
+      <%= image_tag asset.file.url%>
+      <% end %>
+  <%end%>
+</div>
+
+<div class="max-width-12 mx-auto credit-wrap">
+  <div class="ind-project-header">Project —</div>
+  <div class="ind-project-title"><%= @page.title %></div>
+</div>
+
+<div class="max-width-12 mx-auto credit-wrap">
+  <div class="ind-role-header">Role —</div>
+  <div class="ind-role-title">Art Direction, Editorial</div>
+</div>
+
+<div class="max-width-12 mx-auto credit-wrap">
+  <div class="ind-team-header">Team —</div>
+  <div class="ind-team-name">Rob Kulisek</div>
+  <div class="ind-team-role">Photographer</div>
+  <div class="ind-team-name">Maria Juur</div>
+  <div class="ind-team-role">Model</div>  
+</div>
