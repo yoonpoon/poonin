@@ -1,13 +1,13 @@
+
 <!-- <h1><%= @something %></h1> -->
-
-
 
 <div class="clearfix header">
   <div class="sm-col sm-col-8">
     <div id="logo">satomi</div>
   </div>
+
   <ul class="nav sm-col sm-col-4">
-    <div class="clearfix right">
+    <div class="nav-items clearfix">
     <li id="button">Index /</li>
     <li id="images">Thumbnails /</li>
     <li id="contact-link"><a href="#contact">Contact</a></li>
@@ -18,16 +18,16 @@
 </div> -->
 <div class="img-wrap max-width-12 mx-auto">
   <% @pages.each do | page | %>
-    <img class="fit"/>
+    <img class="fit">
       <% page.featuredImage.first.tap do |asset| %>
       <%= image_tag asset.file.url%>
       <% end %>
-  <%end%>
+  <% end %>
 </div>
 
 <div class="max-width-12 mx-auto credit-wrap">
   <div class="ind-project-header">Project —</div>
-  <div class="ind-project-title"><%= @page.title %></div>
+  <div class="ind-project-title"><%= @page.projectTitle %></div>
 </div>
 
 <div class="max-width-12 mx-auto credit-wrap">

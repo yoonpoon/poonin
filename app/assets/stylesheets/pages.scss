@@ -8,13 +8,30 @@
     -webkit-font-smoothing: antialiased;    
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {   
+    
+/*    body {
+      padding: 0!important;
+    }
+
+    .index, .grid {
+      padding: 0!important;
+    }*/
+
     .grid-item {
       width: 114px!important;
       height:20vh!important;
-  }
-    .nav {
+    }
+    /*.nav {
       margin-top: 0!important;
+    }*/
+
+    .nav-items {
+      text-align: left!important;
+    }
+
+    .nav {
+      padding-left: 0!important
     }
 
     .ind-project-header, .ind-team-header, .ind-role-header {
@@ -25,9 +42,9 @@
       min-width: 100%!important;
     } 
 
-/*    #logo {
-      font-size: 15.7vw!important;
-    }*/
+    #logo {
+      font-size: 13.3vw!important;
+    }
 
 /*    .nav li {
       display: inline-block!important;
@@ -77,8 +94,9 @@ body {
   font-family: "times"!important;
   letter-spacing: 0rem!important;
   margin-bottom: 0rem!important;
+  list-style: none;
   display: inline-block;
-  margin-top: 36%;
+/*  margin-top: 36%;*/
 }
 
 .project-header {

@@ -8,10 +8,12 @@ class PagesController < ApplicationController
   def show
     # @nav = Nav.all.load.first
     # @pages = @nav.pages    
-    # @pages = Page.find(params[:slug])
+    # @pages = Page.find(params[:id])
     @page = Page.all.load.first
     @nav = Nav.all.load.first
     @pages = @nav.pages
+    # @something = Page.find(params[:page.projectTitle])
+ 
   end
   
 end
