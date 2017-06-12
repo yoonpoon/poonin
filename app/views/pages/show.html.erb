@@ -12,7 +12,11 @@
 </div>
 <!--  -->
 <div class="img-wrap max-width-12 mx-auto">
-  <img class="fit">
+  <div class="clearfix">
+    <% @page.projectGallery.all? do |asset| %>
+    <%= image_tag asset.file.url%>
+    <% end %>
+  </div>
 </div>
 
 <div class="max-width-12 mx-auto credit-wrap">
@@ -22,15 +26,12 @@
 
 <div class="max-width-12 mx-auto credit-wrap">
   <div class="ind-role-header">Role —</div>
-  <div class="ind-role-title">Art Direction, Editorial</div>
+  <div class="ind-role-title"><%= @page.role %> </div>
 </div>
 
 <div class="max-width-12 mx-auto credit-wrap">
   <div class="ind-team-header">Team —</div>
-  <div class="ind-team-name">Rob Kulisek</div>
-  <div class="ind-team-role">Photographer</div>
-  <div class="ind-team-name">Maria Juur</div>
-  <div class="ind-team-role">Model</div>  
+  <div class="ind-team-name"> <%= parse_markdown @page.team %></div>
 </div>
 
 

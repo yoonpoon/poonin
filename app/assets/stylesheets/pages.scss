@@ -8,7 +8,7 @@
     -webkit-font-smoothing: antialiased;    
 }
 
-@media only screen and (max-width: 650px) {   
+@media (--breakpoint-sm) {
     
 /*    body {
       padding: 0!important;
@@ -35,7 +35,9 @@
     }
 
     .img-wrap img {
-      min-width: 100%!important;
+/*    min-width: 100%!important;
+*/    margin-bottom: 3em!important;
+      max-width: 100%!important;
     } 
 
     #logo {
@@ -57,7 +59,6 @@ body {
   font-family: "times";
   letter-spacing: 0.01em;
 }
-
 
 /*input, button, submit
 {
@@ -164,6 +165,7 @@ li:hover {
 #services, #contact {
   margin-top: 5.5rem;
   margin-bottom: 5.5rem;
+  font-weight: 700;    
 }
 
 .project-header {
@@ -195,12 +197,6 @@ li:hover {
 
 .info-byline {
   margin-bottom: 3rem;
-}
-
-#services, #contact {
-  margin-top: 5.5rem;
-  margin-bottom: 5.5rem;
-  font-weight: 700;  
 }
 
 a {
@@ -306,7 +302,8 @@ body { font-family: sans-serif; }
 }
 
 .img-wrap img {
-  max-width: 70%;
+  margin-bottom: 9.5em;
+  max-width: 99%;
 }
 
 .ind-project-title {
@@ -345,6 +342,11 @@ body { font-family: sans-serif; }
 .ind-team-name {
   font-size: 12vw;
   line-height: 0.94em;
+}
+
+.credit-wrap p {
+  margin: 0;
+  margin-bottom: 6vw;
 }
 
 /*.close {
