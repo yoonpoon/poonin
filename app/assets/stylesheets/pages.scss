@@ -7,26 +7,19 @@
     -webkit-font-smoothing: antialiased;    
 }
 
-@media (--breakpoint-sm) {
+@media only screen and (max-width: 550px) {
     
-/*    body {
-      padding: 0!important;
-    }
-
-    .index, .grid {
-      padding: 0!important;
-    }*/
-
     .grid-item {
       width: 114px!important;
       height:20vh!important;
     }
-    /*.nav {
-      margin-top: 0!important;
-    }*/
 
     .nav {
-      padding-left: 0!important
+      padding-left: 0!important;
+    }
+
+    .nav-items {
+      margin-top: -1.5rem!important;
     }
 
     .ind-project-header, .ind-team-header, .ind-role-header {
@@ -34,31 +27,29 @@
     }
 
     .img-wrap img {
-/*    min-width: 100%!important;
-*/    margin-bottom: 3em!important;
+      margin-bottom: 3em!important;
       max-width: 100%!important;
     } 
 
-    #logo {
-      font-size: 20.3vw!important;
-    };
+    .header {
+      margin-bottom: 4rem!important;
+    }
 
-/*    .nav li {
-      display: inline-block!important;
-    }*/
+    #button, #images, #contact-link {
+      font-size: 15.5px!important;
+    }
 }
 
 html { font-size: calc(.5px + 1vw) }
 
 body {
-  padding-top:1.5rem;
-  padding-bottom:1.5rem;
+  padding-top:1rem;
+  padding-bottom:1rem;
   padding-right: 4.8rem;
   padding-left: 4.8rem;
   font-family: "times";
   letter-spacing: 0.01em;
 }
-
 
 /*input, button, submit
 {
@@ -71,7 +62,7 @@ body {
 }*/
 
 .header {
-  padding-bottom: 5.5vw;
+  padding-bottom: 5vw;
 }
 
 #logo {
@@ -102,6 +93,7 @@ body {
 .nav-items {
   font-size: 20px!important;
   font-family: "times"!important;
+  margin-right: 4rem;
 }
 
 .project-header {
