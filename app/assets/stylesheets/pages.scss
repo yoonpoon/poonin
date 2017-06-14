@@ -31,7 +31,7 @@
       margin-top: -1.5rem!important;
     }
 
-    .ind-project-header, .ind-team-header, .ind-role-header .project-header {
+    .ind-project-header, .ind-team-header, .ind-role-header {
       font-size: 24px!important;
     }
 
@@ -52,10 +52,21 @@
       font-size: 12vw!important;
     }
 
-    .close {
+    .close-wrap {
       font-size: 28px!important;
     }
 }
+
+@media only screen and (max-width: 320px) {
+    
+    .close-wrap {
+      font-size: 50px!important;
+      color: #828180!important;
+      right: 0.9em!important;
+      top: 1.2em!important;
+    }
+}  
+
 
 html { font-size: calc(.5px + 1vw) }
 
@@ -111,13 +122,6 @@ body {
   font-size: 20px!important;
   font-family: "times"!important;
   margin-right: 6rem;
-}
-
-.project-header {
-  font-family: "times";
-  font-size: 20px;
-  color:#600001; 
-  margin-bottom: 3rem; 
 }
 
 .client-title {
