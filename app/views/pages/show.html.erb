@@ -8,11 +8,9 @@
 </div>
 
 <div class="img-wrap max-width-12 mx-auto">
-  <div class="clearfix">
-    <% @page.projectGallery.all? do |asset| %>
-    <%= image_tag asset.file.url %>
-    <% end %>
-  </div>
+  <% @page.projectGallery.all? do |asset| %>
+  <%= image_tag asset.file.url %>
+  <% end %>
 </div>
 
 <div class="max-width-12 mx-auto credit-wrap">
