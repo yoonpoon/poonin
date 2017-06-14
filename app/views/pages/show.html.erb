@@ -1,32 +1,40 @@
-
-<div class="clearfix header">
+<!-- <div class="clearfix header">
   <div class="sm-col sm-col-8">
     <div id="logo"><a href="/">satomi</a></div>
   </div>
-  <!-- <ul class="nav sm-col sm-col-4">
+  <ul class="nav sm-col sm-col-4">
     <div class="nav-items clearfix">
     <li id="button">Index /</li>
     <li id="images">Thumbnails /</li>
     <li id="contact-link"><a href="#contact">Contact</a></li>
-  </ul> -->        
+  </ul>        
+</div> -->
+
+<div class="header sm-col-11 sm-flex items-baseline justify-between">
+  <div id="logo"><a href="/">satomi</a></div>
+  <div class="nav-items flex items-baseline">
+    <div id="button"><a href="/">Index /</a></div>
+    <div id="images"><a>&nbspThumbnails /</a></div>
+    <div id="contact-link"><a href="#contact">&nbspContact </a></div>
+  </div>
 </div>
-<!--  -->
+
 <div class="img-wrap max-width-12 mx-auto">
   <div class="clearfix">
     <% @page.projectGallery.all? do |asset| %>
-    <%= image_tag asset.file.url%>
+    <%= image_tag asset.file.url %>
     <% end %>
   </div>
 </div>
 
 <div class="max-width-12 mx-auto credit-wrap">
   <div class="ind-project-header">Project —</div>
-    <div class="ind-project-title"> <%= @page.projectTitle %> </div>
+    <div class="ind-project-title"><%= @page.projectTitle %></div>
 </div>
 
 <div class="max-width-12 mx-auto credit-wrap">
   <div class="ind-role-header">Role —</div>
-  <div class="ind-role-title"><%= @page.role %> </div>
+  <div class="ind-role-title"><%= @page.role %></div>
 </div>
 
 <div class="max-width-12 mx-auto credit-wrap">

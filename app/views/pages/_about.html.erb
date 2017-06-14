@@ -1,14 +1,17 @@
-
 <div class="max-width-12 mx-auto info-wrap">
   <div class="clearfix">
     <div id="information">Information —</div>
     <div class="info-text">
       <%= parse_markdown @nav.about %>
     </div>
-    <div id="services">Services include —</div>
+    <div id="services">Services —</div>
     <div class="services text">
       <%= parse_markdown @nav.services %>
     </div>
+    <div id="clients">Clients —</div>
+    <div class="clients-text">
+      <%= parse_markdown @nav.clients %>
+    </div>    
     <div id="contact">Contact —</div>
     <div class="contact-text">
       <%= parse_markdown @nav.contact %> 

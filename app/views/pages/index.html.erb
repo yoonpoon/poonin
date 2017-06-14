@@ -1,5 +1,13 @@
+<div class="header sm-col-11 sm-flex items-baseline justify-between">
+  <div id="logo">satomi</div>
+  <div class="nav-items flex items-baseline">
+    <div id="button"><a>Index /</a></div>
+    <div id="images"><a>&nbspThumbnails /</a></div>
+    <div id="contact-link"><a href="#contact">&nbspContact </a></div>
+  </div>
+</div>
 
-<div class="clearfix header">
+<!-- <div class="clearfix header">
   <div class="sm-col sm-col-8">
     <div id="logo">satomi</div>
   </div>
@@ -8,7 +16,7 @@
     <li id="images">Thumbnails /</li>
     <li id="contact-link"><a href="#contact">Contact</a></li>
   </ul>        
-</div>
+</div> -->
 
 <div class="project-header">Projects —</div>
 
@@ -27,10 +35,10 @@
     <% @pages.each do | page | %> 
       <div class="grid-item">
         <div class="project-num mb2 mt2"><%= page.projectNumber %></div>
-          <img class="fit thumb mb2 ar-container"/>
-            <% page.featuredImage.first.tap do |asset| %>
-            <%= image_tag asset.file.url%>
-            <% end %>
+        <img class="fit thumb mb2"/>
+          <% page.featuredImage.first.tap do |asset| %>
+          <%= image_tag asset.file.url%>
+          <% end %>
         <div class="client-title center"><%= page.title %></div>
         <div class="project-title center"><%= page.caption %></div>
         <div class="project-role center pb2"><%= page.role %></div>
