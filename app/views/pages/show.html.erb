@@ -7,6 +7,12 @@
   </div>
 </div> -->
 
+<div class="col-0 sm-flex close-wrap">
+  <div class="fixed close">
+    <a href="/">X</a>
+  </div>
+</div>
+
 <div class="img-wrap max-width-12 mx-auto">
   <% @page.projectGallery.all? do |asset| %>
   <%= image_tag asset.file.url %>

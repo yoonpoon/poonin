@@ -31,7 +31,7 @@
       margin-top: -1.5rem!important;
     }
 
-    .ind-project-header, .ind-team-header, .ind-role-header {
+    .ind-project-header, .ind-team-header, .ind-role-header .project-header {
       font-size: 24px!important;
     }
 
@@ -47,6 +47,11 @@
     #button, #images, #contact-link {
       font-size: 15.5px!important;
     }
+
+    #logo {
+      font-size: 12vw!important;
+    }
+
 }
 
 html { font-size: calc(.5px + 1vw) }
@@ -71,7 +76,7 @@ body {
 }*/
 
 .header {
-  padding-bottom: 5vw;
+  padding-bottom: 4vw;
 }
 
 #logo {
@@ -312,11 +317,15 @@ body { font-family: sans-serif; }
 
 .img-wrap img {
   margin-bottom: 9.5em;
-  max-width: 99%;
+  max-width: 100%;
 }
 
 .img-wrap img:last-child {
   margin-bottom: -0.5em;
+} 
+
+.img-wrap img:first-child {
+  margin-top: 11em;
 } 
 
 .ind-project-title {
@@ -362,11 +371,17 @@ body { font-family: sans-serif; }
   margin-bottom: 6vw;
 }
 
-/*.close {
-  text-align: right;
+.close-wrap {
+  background-color: red;
+  float: right;
+}
+
+.close {
   font-size: 28px;
   color:#828180;
-}*/
+  right: 2.7em;
+  top:2.2em;
+}
 
 .turbolinks-progress-bar {
   background-color: #600001;
