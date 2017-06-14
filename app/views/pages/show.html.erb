@@ -25,7 +25,9 @@
   <div class="ind-role-title"><%= @page.role %></div>
 </div>
 
-<div class="max-width-12 mx-auto credit-wrap">
-  <div class="ind-team-header">Team —</div>
-  <div class="ind-team-name"> <%= parse_markdown @page.team %></div>
-</div>
+<% if @page.team %>
+  <div class="max-width-12 mx-auto credit-wrap">
+    <div class="ind-team-header">Team —</div>
+    <div class="ind-team-name"> <%= parse_markdown @page.team %></div>
+  </div>
+<% end %>
