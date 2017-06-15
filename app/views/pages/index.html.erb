@@ -2,14 +2,19 @@
   <div id="logo">satomi</div>
 </div>
 
-<div class="project-header">Projects —</div>
+<div class="project-header">
+  Projects —
+</div>
 
+<ul class="clearfix client-list list-reset">    
 <% @pages.each do | page | %>
-      <ul class="client-list list-reset">
-        <li><%= link_to page.title, page_path(page.slug) %></li>  
-      </ul>
-    </div>
-  </div>
+  <li>
+    <%= link_to page_path(page.slug), class: 'thumb-wrap' do %>
+      <span class="title"><%= page.title %></span>
+      <%= image_tag page.featuredImage.first.file.url, class: 'thumb' %>
+    <% end %>
+  </li>  
 <% end %>
+</ul>
 
 <%= render 'about' %>
