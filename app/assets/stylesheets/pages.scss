@@ -39,7 +39,7 @@
     }
 
     .img-wrap img {
-      margin-bottom: 3em!important;
+      margin-bottom: 12em!important;
       max-width: 100%!important;
     } 
 
@@ -60,6 +60,14 @@
       right: 0.28em!important;
       top: 0.3em!important;      
     }
+
+    .img-wrap img:last-child {
+      margin-bottom: -1em!important;
+    }
+
+    .img-wrap img:first-child {
+      margin-top: 16em!important;
+    } 
 
 /*    body {
       padding-right: 3rem!important;
