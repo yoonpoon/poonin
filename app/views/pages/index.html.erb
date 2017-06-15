@@ -1,10 +1,5 @@
 <div class="header sm-flex items-baseline justify-between">
   <div id="logo">satomi</div>
-<!--   <div class="nav-items flex items-baseline">
-    <div id="button"><a>Index /</a></div>
-    <div id="images"><a>&nbspThumbnails /</a></div>
-    <div id="contact-link"><a href="#contact">&nbspContact </a></div>
-  </div> -->
 </div>
 
 <div class="project-header">Projects —</div>
@@ -13,39 +8,10 @@
   <div class="index max-width-12 mx-auto">
     <div class="clearfix">
       <ul class="client-list list-reset">
-        <li><%= link_to page.title, page_path(page.slug) %></li>     
+        <li><%= link_to page.title, page_path(page.slug) %></li>  
       </ul>
     </div>
   </div>
 <% end %>
 
-
 <%= render 'about' %>
-
-
-<script>  
-
-$('.grid').packery({
-    itemSelector: '.grid-item',
-    rowHeight: 0,
-    gutter: 70,
-    transitionDuration: 0,
-  });
-
-$(document).ready(function(){
-    $("#button").click(function(){
-      $(".index").toggle();
-      $(".grid").hide();
-      $(".index").show();
-  });
-});
-
-$(document).ready(function(){
-    $("#images").click(function(){
-      $(".index").toggle();
-      $(".index").hide();
-      $(".grid").show();
-  });
-});
-
-</script>
