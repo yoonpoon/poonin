@@ -414,20 +414,3 @@ body { font-family: sans-serif; }
 .turbolinks-progress-bar {
   background-color: #600001;
 }
-
-img.thumb {
-  height: 1.2em;
-  display: none;
-  position: absolute;
-}
-
-a.thumb-wrap .title {
-}
-
-a.thumb-wrap:hover .title {
-  padding-right: 40px;
-}
-
-a.thumb-wrap:hover img.thumb {
-  display: inline-block;
-}
