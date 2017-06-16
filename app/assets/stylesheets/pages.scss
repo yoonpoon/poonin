@@ -16,6 +16,45 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Riccione';
+  src: font-url('Riccione-Regular.eot');
+  src: font-url('Riccione-Regular.eot?#iefix') format('embedded-opentype'),
+    font-url('Riccione-Regular.woff') format('woff'),
+    font-url('Riccione-Regular.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Riccione';
+  src: url('Riccione-Medium.eot');
+  src: url('Riccione-Medium.eot?#iefix') format('embedded-opentype'),
+    font-url('Riccione-Medium.woff') format('woff'),
+    font-url('Riccione-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Riccione';
+  src: font-url('Riccione-Light.eot');
+  src: font-url('Riccione-Light.eot?#iefix') format('embedded-opentype'),
+    font-url('Riccione-Light.woff') format('woff'),
+    font-url('Riccione-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Riccione-Xlight';
+  src: font-url('Riccione-Xlight.eot');
+  src: font-url('Riccione-Xlight.eot?#iefix') format('embedded-opentype'),
+    font-url('Riccione-Xlight.woff') format('woff'),
+    font-url('Riccione-Xlight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
 
 @media only screen and (max-width: 550px) {
   .close {
@@ -40,8 +79,6 @@
   } 
 
 }
-
-
 
 /* ---------------- IPHONE 6+ –-------------------- */
 
@@ -255,7 +292,6 @@ body {
   color:#600001;
 }
 
-
 /* ------------------ INDEX CSS -------------- */
 /*.client-list {
   font-size: 12.2vw;
@@ -300,18 +336,22 @@ a:hover {
 }
 
 .project-header {
-  font-family: "times";
+  font-family: "Riccione";
+  font-weight: 300;
+  font-style: normal;
   font-size: 20px;
   color:#600001; 
   margin-bottom: 3.5rem; 
 }
 
 .list-reset {
-  font-size: 12.2vw;
-  font-family: "times";
+  font-size: 11vw;
+  font-family: "Riccione";
+  font-weight: 100;
+  font-style: normal;
   color: #600001;
   margin: 0 auto;
-  letter-spacing: -.04rem;
+  letter-spacing: 0.2rem;
   line-height: 10.5rem;
 }
 
@@ -322,7 +362,9 @@ a:hover {
 }
 
 .info-wrap {
-  font-family: "times";
+  font-family: "Riccione";
+  font-weight: 500;
+  font-style: normal;
   font-size: 5vw;
   color: #600001;
 }
@@ -363,6 +405,7 @@ body { font-family: sans-serif; }
   color: #600001;
   text-align: center;
   padding-top: 5em;
+  width: 85%;  
 }
 
 .ind-project-header {
