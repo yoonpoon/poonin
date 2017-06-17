@@ -57,6 +57,7 @@
 }
 
 @media only screen and (max-width: 550px) {
+  
   .close {
     font-size: 24px!important;
     right: .65em!important;
@@ -66,7 +67,6 @@
   .header {
     padding-top: 2rem!important;
   }
-
 
   body {
     padding-left: 1.5rem!important;
@@ -94,7 +94,7 @@
     .header {
       margin-bottom: 0rem!important;
       padding-bottom: .2rem!important;
-    }  
+    }
 
     #services, #information, #clients, #contact {
       font-size: 44px!important;
@@ -116,13 +116,9 @@
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) {
     
-    .nav {
-      padding-left: 0!important;
-    }
-
-    .info-wrap {
-      font-size: 4.5vw!important;
-    }
+    // .nav {
+    //   padding-left: 0!important;
+    // }
 
     .info-text p {
       font-size: 4.5vw!important;
@@ -140,9 +136,9 @@
       font-size: 4.5vw!important;
     }
     
-    .nav-items {
-      margin-top: -1.5rem!important;
-    }
+    // .nav-items {
+    //   margin-top: -1.5rem!important;
+    // }
 
     .ind-project-header, .ind-team-header, .ind-role-header {
       font-size: 4.5vw!important;
