@@ -5,6 +5,7 @@
     font-url('NimbusSansDOT-BlacExte.woff') format('woff');
   font-weight: 900;
   font-style: normal;
+  -webkit-font-smoothing: antialiased;
 }
 
 @font-face {
@@ -14,6 +15,7 @@
     font-url('NimbusSansDOT-BlacExte_1.woff') format('woff');
   font-weight: 900;
   font-style: normal;
+  -webkit-font-smoothing: antialiased;
 }
 
 @font-face {
@@ -24,6 +26,7 @@
     font-url('Riccione-Regular.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
+  -webkit-font-smoothing: antialiased;  
 }
 
 @font-face {
@@ -34,6 +37,7 @@
     font-url('Riccione-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
+  -webkit-font-smoothing: antialiased;
 }
 
 @font-face {
@@ -44,6 +48,7 @@
     font-url('Riccione-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
+  -webkit-font-smoothing: antialiased;  
 }
 
 @font-face {
@@ -54,6 +59,7 @@
     font-url('Riccione-Xlight.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
+  -webkit-font-smoothing: antialiased;  
 }
 
 @media only screen and (max-width: 550px) {
@@ -145,7 +151,7 @@
     }
 
     .img-wrap img {
-      margin-bottom: 12em!important;
+      margin-bottom: 14em!important;
       width: 100%!important;
     } 
 
@@ -155,6 +161,10 @@
 
     #logo {
       font-size: 12vw!important;
+    }
+
+    #services, #information, #clients, #contact {
+      font-size: 4.5vw!important;
     }
 
     .close {
