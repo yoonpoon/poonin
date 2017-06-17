@@ -161,6 +161,8 @@
 
     body {
       padding-top: -3em!important;
+      padding-left: 0em!important;
+      padding-right: 0em!important;
     }
 
     .project-header {
@@ -224,7 +226,6 @@
     .info-wrap {
       font-size: 3.6vw!important;
     }
-
 }
 
 html { font-size: calc(.5px + 1vw) }
@@ -277,25 +278,25 @@ body {
   position: relative;
 }
 
-.client-title {
-  font-family: "times";
-  font-size: 18px;
-  line-height: 0.9rem;
-  color:#600001; 
-}
+// .client-title {
+//   font-family: "times";
+//   font-size: 18px;
+//   line-height: 0.9rem;
+//   color: #600001; 
+// }
 
-.project-title {
-  font-family: "times";
-  font-size: 18px;
-  color:#600001; 
-  font-style: italic;
-}
+// .project-title {
+//   font-family: "times";
+//   font-size: 18px;
+//   color:#600001; 
+//   font-style: italic;
+// }
 
-.project-role {
-  font-family: "times";
-  font-size: 13px;
-  color:#600001;
-}
+// .project-role {
+//   font-family: "times";
+//   font-size: 13px;
+//   color:#600001;
+// }
 
 /* ------------------ INDEX CSS -------------- */
 /*.client-list {
@@ -456,6 +457,8 @@ body { font-family: sans-serif; }
 }
 
 .ind-role-title {
+  font-family: 'Riccione';
+  font-weight: 500;
   font-size: 12vw;
   line-height: 0.94em;
 }
@@ -477,6 +480,8 @@ body { font-family: sans-serif; }
 }
 
 .ind-team-name {
+  font-family: 'Riccione';
+  font-weight: 500;
   font-size: 12vw;
   line-height: 0.94em;
 }
