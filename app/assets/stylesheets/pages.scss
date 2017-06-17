@@ -120,11 +120,15 @@
       padding-left: 0!important;
     }
 
+    .info-wrap {
+      font-size: 4.5vw!important;
+    }
+
     .info-text p {
       font-size: 4.5vw!important;
     }
 
-    .services text p {
+    .services-text p {
       font-size: 4.5vw!important;      
     }
 
@@ -235,9 +239,9 @@
       padding-top: 3rem!important;
     }
 
-    .info-wrap {
-      font-size: 3.6vw!important;
-    }
+    // .info-wrap {
+    //   font-size: 3.6vw!important;
+    // }
 }
 
 html { font-size: calc(.5px + 1vw) }
