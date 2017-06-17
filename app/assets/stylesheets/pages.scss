@@ -75,7 +75,7 @@
 
   .img-wrap img {
     margin-bottom: 5em!important;
-    max-width: 100%!important;
+    width: 100%!important;
   } 
 
 }
@@ -98,6 +98,10 @@
 
     #services, #information, #clients, #contact {
       font-size: 44px!important;
+    }
+
+    .img-wrap img {
+      width: 100%!important;
     }
 
     .img-wrap img:last-child {
@@ -130,7 +134,7 @@
 
     .img-wrap img {
       margin-bottom: 12em!important;
-      max-width: 100%!important;
+      width: 100%!important;
     } 
 
     .header {
@@ -142,9 +146,9 @@
     }
 
     .close {
-      font-size: 80px!important;
+      font-size: 75px!important;
       right: 0.28em!important;
-      top: 0.3em!important;      
+      top: 0.3em!important; 
     }
 
     .img-wrap img:last-child {
@@ -184,8 +188,9 @@
     }
 
     .img-wrap img {
-      margin-bottom: 13em!important;
-      max-width: 100%!important;
+      margin-bottom: 10em!important;
+      width: 100%!important;
+      height: 100%!important;
     } 
 
     .header {
@@ -198,8 +203,8 @@
 
     .close {
       font-size: 80px!important;
-      right: .2em!important;
-      top:0.4em!important;
+      right: .70em!important;
+      top: 0.90em!important;
     }
 
     .img-wrap img:last-child {
@@ -315,12 +320,6 @@ a:hover {
   color:#828180;
 }
 
-.info-wrap {
-  font-family: "times";
-  font-size: 5vw;
-  color: #600001;
-}
-
 .info-wrap a:hover {
   color: #828180;
 }
@@ -355,14 +354,15 @@ a:hover {
   line-height: 10.5rem;
 }
 
-#information {
+#information, #services, #clients, #contact {
   margin-top: 8rem;
   margin-bottom: 5.5rem;
-  font-weight: 700;
-}
+  font-family: 'Riccione';
+  font-weight: 500;
+  font-style: normal;}
 
 .info-wrap {
-  font-family: "Riccione";
+  font-family: 'Riccione-Xlight';
   font-weight: 500;
   font-style: normal;
   font-size: 5vw;
@@ -410,6 +410,8 @@ body { font-family: sans-serif; }
 
 .ind-project-header {
 /*  font-size: 2.5vw;*/
+  font-family: 'Riccione';
+  font-weight: 300;
   font-size: 32px;
   letter-spacing: 0.01em;
   padding-bottom: 7vw;
@@ -436,6 +438,8 @@ body { font-family: sans-serif; }
 } 
 
 .ind-project-title {
+  font-family: 'Riccione';
+  font-weight: 500;
   font-size: 12vw;
   font-style: italic;
   line-height: 0.94em;
@@ -447,6 +451,8 @@ body { font-family: sans-serif; }
   letter-spacing: 0.01em;
   padding-top: 7vw;
   padding-bottom: 7vw;
+  font-family: 'Riccione';
+  font-weight: 300;
 }
 
 .ind-role-title {
@@ -459,6 +465,8 @@ body { font-family: sans-serif; }
   letter-spacing: 0.01em;
   padding-top: 7vw;
   padding-bottom: 7vw;
+  font-family: 'Riccione';
+  font-weight: 300;
 }
 
 .ind-team-role {
