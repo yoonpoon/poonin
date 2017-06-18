@@ -128,6 +128,7 @@
 
     .info-text p {
       font-size: 4.5vw!important;
+      letter-spacing: 0.13rem!important;
     }
 
     .services-text p {
@@ -364,6 +365,7 @@ a:hover {
   font-size: 20px;
   color:#600001; 
   margin-bottom: 3.5rem; 
+  letter-spacing: 0.1rem;
 }
 
 .list-reset {
@@ -373,7 +375,7 @@ a:hover {
   font-style: normal;
   color: #600001;
   margin: 0 auto;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.35rem;
   line-height: 10.5rem;
 }
 
@@ -382,7 +384,9 @@ a:hover {
   margin-bottom: 5.5rem;
   font-family: 'Riccione';
   font-weight: 500;
-  font-style: normal;}
+  font-style: normal;
+  letter-spacing: 0.15rem;
+}
 
 .info-wrap {
   font-family: 'Riccione-Xlight';
@@ -424,7 +428,6 @@ body { font-family: sans-serif; }
 /* INDIVIDUAL PROJECT PAGE CSS */
 
 .credit-wrap {
-  font-family: "times";
   color: #600001;
   text-align: center;
   padding-top: 5em;
@@ -528,3 +531,24 @@ body { font-family: sans-serif; }
 .turbolinks-progress-bar {
   background-color: #600001;
 }
+
+/*--------------- IMG ON HOVER --------------------*/
+
+img.thumb {
+  height: 1.2em;
+  display: none;
+  position: absolute;
+}
+
+a.thumb-wrap .title {
+}
+
+a.thumb-wrap:hover .title {
+  padding-right: 40px;
+}
+
+a.thumb-wrap:hover img.thumb {
+  display: inline-block;
+}
+
+

@@ -9,8 +9,19 @@
     <%= link_to page_path(page.slug) do %>
       <%= page.title %><% unless page == @pages.last %>,<% end%>
     <% end %>
-    </li>  
-  <% end %>    
+    </li> 
+  <% end %>
 </ul>
+
+<!-- <ul class="clearfix client-list list-reset">    
+<% @pages.each do | page | %>
+  <li>
+    <%= link_to page_path(page.slug), class: 'thumb-wrap' do %>
+      <span class="title"><%= page.title %></span>
+      <%= image_tag page.featuredImage.first.file.url, class: 'thumb' %>
+    <% end %>
+  </li>  
+<% end %>
+</ul> -->
 
 <%= render 'about' %>
