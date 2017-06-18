@@ -126,9 +126,18 @@
     //   padding-left: 0!important;
     // }
 
+    .info-wrap {
+      font-family: "Riccione"!important;
+      font-weight: 300!important;
+      font-style: normal!important;
+    }
+
     .info-text p {
       font-size: 4.5vw!important;
       letter-spacing: 0.13rem!important;
+      font-family: "Riccione"!important;
+      font-weight: 300!important;
+      font-style: normal!important;
     }
 
     .services-text p {
@@ -358,6 +367,11 @@ a:hover {
   font-weight: 700;    
 }
 
+.info-text {
+  font-family: "Riccione-Xlight";
+  font-style: normal;
+}
+
 .project-header {
   font-family: "Riccione";
   font-weight: 300;
@@ -389,8 +403,8 @@ a:hover {
 }
 
 .info-wrap {
-  font-family: 'Riccione-Xlight';
-  font-weight: 500;
+  font-family: 'Riccione';
+  font-weight: 300;
   font-style: normal;
   font-size: 5vw;
   color: #600001;
