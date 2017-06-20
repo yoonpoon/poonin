@@ -82,6 +82,7 @@
   .img-wrap img {
     margin-bottom: 5em!important;
     width: 100%!important;
+    height: 100%!important;
   } 
 
 }
@@ -163,6 +164,7 @@
     .img-wrap img {
       margin-bottom: 14em!important;
       width: 100%!important;
+      height: 100%!important;
     } 
 
     .header {
@@ -373,13 +375,12 @@ a:hover {
 }
 
 .project-header {
-  font-family: "Riccione";
-  font-weight: 300;
+  font-family: "Riccione-Xlight";
   font-style: normal;
   font-size: 20px;
   color:#600001; 
   margin-bottom: 3.5rem; 
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.04rem;
 }
 
 .list-reset {
@@ -463,26 +464,30 @@ body { font-family: sans-serif; }
   padding-bottom: 3.5em;
 }
 
+.object-fit-cover {
+  max-height: 550px;
+  width: 70%;
+  object-fit: contain;
+}
+
 .img-wrap img {
-  margin-bottom: 9.5em;
-  max-width: 100%;
-  max-height: 99%;
+  margin-bottom: 5.5em;
 }
 
 .img-wrap img:last-child {
-  margin-bottom: -0.5em;
+  margin-bottom: -3.7em;
 } 
 
 .img-wrap img:first-child {
-  margin-top: 11em;
+  margin-top: 9em;
 } 
 
 .ind-project-title {
   font-family: 'Riccione';
-  font-weight: 500;
+  font-weight: 300;
   font-size: 12vw;
-  font-style: italic;
   line-height: 0.94em;
+  letter-spacing: 0.15rem;
 }
 
 .ind-role-header {
@@ -497,9 +502,10 @@ body { font-family: sans-serif; }
 
 .ind-role-title {
   font-family: 'Riccione';
-  font-weight: 500;
+  font-weight: 300;
   font-size: 12vw;
   line-height: 0.94em;
+  letter-spacing: 0.15rem;
 }
 
 .ind-team-header {
@@ -520,9 +526,10 @@ body { font-family: sans-serif; }
 
 .ind-team-name {
   font-family: 'Riccione';
-  font-weight: 500;
+  font-weight: 300;
   font-size: 12vw;
   line-height: 0.94em;
+  letter-spacing: 0.15rem;
 }
 
 .credit-wrap p {

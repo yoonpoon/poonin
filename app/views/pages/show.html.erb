@@ -6,7 +6,7 @@
 
 <div class="img-wrap max-width-12 mx-auto">
   <% @page.projectGallery.all? do |asset| %>
-  <%= image_tag asset.file.url %>
+  <img class="object-fit-cover"<%= image_tag asset.url %>
   <% end %>
 </div>
 
