@@ -162,8 +162,8 @@
     }
 
     .object-fit-cover {
-      max-height: 1200px!important;
-      object-fit: cover!important;
+      max-height: 550px!important;
+      object-fit: contain!important;
     }    
 
     .img-wrap img {
