@@ -337,12 +337,10 @@ body {
   padding-right: 4.8rem;
   padding-left: 3.5rem;
   margin-top: 0;
-  font-family: "times";
-  letter-spacing: 0.01em;
 }
 
 .header {
-  padding-bottom: 4vw;
+  padding-bottom: 2.7vw;
 }
 
 #logo {
@@ -351,53 +349,6 @@ body {
   letter-spacing: -.25vw;
   color:#600001;
 }
-
-.nav {
-  color:#600001;
-  position: absolute;
-  top: 8.3rem;
-  right: 2rem;
-}
-
-/*.nav li {
-  font-size: 20px!important;
-  font-family: "times"!important;
-  letter-spacing: 0rem!important;
-  margin-bottom: 0rem!important;
-  list-style: none;
-  display: inline-block;
-/*  margin-top: 36%;
-}*/
-
-.nav-items {
-  font-size: 20px!important;
-  font-family: "times"!important;
-  margin-right: 6rem;
-}
-
-.list-rest {
-  position: relative;
-}
-
-// .client-title {
-//   font-family: "times";
-//   font-size: 18px;
-//   line-height: 0.9rem;
-//   color: #600001; 
-// }
-
-// .project-title {
-//   font-family: "times";
-//   font-size: 18px;
-//   color:#600001; 
-//   font-style: italic;
-// }
-
-// .project-role {
-//   font-family: "times";
-//   font-size: 13px;
-//   color:#600001;
-// }
 
 /* ------------------ INDEX CSS -------------- */
 /*.client-list {
@@ -450,15 +401,15 @@ a:hover {
   letter-spacing: 0.04rem;
 }
 
-.list-reset {
-  font-size: 11vw;
-  font-family: "Riccione";
-  font-weight: 100;
-  font-style: normal;
+li a {
+  font-size: 12.5vw;
+  font-family: 'Riccione';
+  font-weight: 300;
   color: #600001;
   margin: 0 auto;
-  letter-spacing: 0.35rem;
-  line-height: 10.5rem;
+  letter-spacing: 0.30rem;
+  line-height: 11.5rem;
+  text-rendering: optimizeLegibility;
 }
 
 #information, #services, #clients, #contact {
@@ -554,7 +505,7 @@ body { font-family: sans-serif; }
   font-weight: 300;
   font-size: 12vw;
   line-height: 0.94em;
-  letter-spacing: 0.15rem;
+  letter-spacing: 0.30rem;
 }
 
 .ind-role-header {
@@ -596,7 +547,7 @@ body { font-family: sans-serif; }
   font-weight: 300;
   font-size: 12vw;
   line-height: 0.94em;
-  letter-spacing: 0.15rem;
+  letter-spacing: 0.30rem;
 }
 
 .credit-wrap p {
