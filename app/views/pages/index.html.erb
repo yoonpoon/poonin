@@ -1,5 +1,6 @@
 <div class="header sm-flex items-baseline justify-between">
-  <div id="logo">satomi</div>
+  <div id="logo">
+    <a href="#information"/>satomi</div>
 </div>
 
 <div class="project-header">Projects —</div>
@@ -14,3 +15,15 @@
 </ul>
 
 <%= render 'about' %>
+
+<script>
+
+$(document).on('click', 'a', function(event){
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+});
+
+</script>
