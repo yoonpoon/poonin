@@ -62,7 +62,17 @@
   -webkit-font-smoothing: antialiased;  
 }
 
-@media only screen and (max-width: 550px) {
+@font-face {
+  font-family: 'Riccione-XlightIta';
+  src: url('Riccione-XlightIta.eot');
+  src: url('Riccione-XlightIta.eot?#iefix') format('embedded-opentype'),
+    url('Riccione-XlightIta.woff') format('woff'),
+    url('Riccione-XlightIta.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@media only screen and (max-width: 750px) {
   
   .close {
     font-size: 24px!important;
@@ -83,9 +93,51 @@
     margin-bottom: 5em!important;
     width: 100%!important;
     height: 100%!important;
-  } 
+  }
+
+  .ind-project-header, .ind-role-header, .ind-team-header  {
+    font-size: 20px!important;
+  }
 
 }
+
+/* ---------------- IPAD –-------------------- */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    body {
+      padding-top: 4em!important;
+    }
+
+    .object-fit-cover {
+      max-height: 620px!important;
+      object-fit: contain!important;
+    }    
+
+    .img-wrap img {
+      margin-bottom: 9em!important;
+      width: 100%!important;
+      height: 200%!important;      
+    } 
+
+    .img-wrap img:last-child {
+      margin-bottom: -1em!important;
+    }    
+
+    .close {
+      font-size: 40px!important;
+      right: 0.9em!important;
+      top: 1.4em!important; 
+    }    
+
+    blockquote {
+      margin-bottom: 0.6em!important;
+    }
+}
+
 
 /* ---------------- IPHONE 6+ –-------------------- */
 
@@ -126,6 +178,10 @@
     // .nav {
     //   padding-left: 0!important;
     // }
+
+    .list-reset {
+      letter-spacing: 0.32rem!important;
+    }
 
     .info-wrap {
       font-family: "Riccione"!important;
@@ -556,6 +612,20 @@ body { font-family: sans-serif; }
 
 .turbolinks-progress-bar {
   background-color: #600001;
+}
+
+blockquote {
+  margin: 0 auto;
+  margin-top: px;
+  margin-bottom: 1.2em;
+  font-family: 'Riccione-XlightIta';
+  font-weight: 300;
+  font-size: 12vw;
+  letter-spacing: 0;  
+}
+
+.ind-team-name p {
+  margin-bottom: 0;
 }
 
 /*--------------- IMG ON HOVER --------------------*/
