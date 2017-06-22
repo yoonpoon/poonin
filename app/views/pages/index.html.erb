@@ -1,6 +1,7 @@
 <div class="header sm-flex items-baseline justify-between">
   <div id="logo">
-    <a href="#information"/>satomi</div>
+    <a href="#information">satomi</a>
+  </div>
 </div>
 
 <div class="project-header">Projects —</div>
@@ -8,7 +9,7 @@
   <% @pages.each do | page | %>
     <li>
     <%= link_to page_path(page.slug) do %>
-      <%= page.title %><% unless page == @pages.last %>,<% end%>
+    <span class="title"><%= page.title %><% unless page == @pages.last %>,</span><% end%>
     <% end %>
     </li> 
   <% end %>

@@ -402,14 +402,14 @@ a:hover {
 }
 
 li a {
-  font-size: 12.5vw;
+  font-size: 12vw;
   font-family: 'Riccione';
-  font-weight: 300;
+  font-weight: 100;
   color: #600001;
   margin: 0 auto;
   letter-spacing: 0.30rem;
   line-height: 11.5rem;
-  text-rendering: optimizeLegibility;
+  font-kerning: normal;
 }
 
 #information, #services, #clients, #contact {
@@ -503,7 +503,7 @@ body { font-family: sans-serif; }
 .ind-project-title {
   font-family: 'Riccione';
   font-weight: 300;
-  font-size: 12vw;
+  font-size: 11vw;
   line-height: 0.94em;
   letter-spacing: 0.30rem;
 }
@@ -521,7 +521,7 @@ body { font-family: sans-serif; }
 .ind-role-title {
   font-family: 'Riccione';
   font-weight: 300;
-  font-size: 12vw;
+  font-size: 11vw;
   line-height: 0.94em;
   letter-spacing: 0.15rem;
 }
@@ -536,7 +536,7 @@ body { font-family: sans-serif; }
 }
 
 .ind-team-role {
-  font-size: 12vw;
+  font-size: 11vw;
   line-height: 0.94em;
   font-style: italic;
   padding-bottom: .45em;  
@@ -545,7 +545,7 @@ body { font-family: sans-serif; }
 .ind-team-name {
   font-family: 'Riccione';
   font-weight: 300;
-  font-size: 12vw;
+  font-size: 11vw;
   line-height: 0.94em;
   letter-spacing: 0.30rem;
 }
@@ -584,24 +584,3 @@ blockquote {
 .ind-team-name p {
   margin-bottom: 0;
 }
-
-/*--------------- IMG ON HOVER --------------------*/
-
-img.thumb {
-  height: 1.2em;
-  display: none;
-  position: absolute;
-}
-
-a.thumb-wrap .title {
-}
-
-a.thumb-wrap:hover .title {
-  padding-right: 40px;
-}
-
-a.thumb-wrap:hover img.thumb {
-  display: inline-block;
-}
-
-
