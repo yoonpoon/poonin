@@ -17,7 +17,7 @@
 
 <div class="max-width-12 mx-auto credit-wrap">
   <div class="ind-role-header">Role —</div>
-  <div class="ind-role-title"><%= @page.role %></div>
+  <div class="ind-role-title"><%= parse_markdown @page.role %></div>
 </div>
 
 <% if @page.team %>

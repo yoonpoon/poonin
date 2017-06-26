@@ -1,4 +1,4 @@
-<div class="header sm-flex items-baseline justify-between">
+<div class="header">
   <div id="logo">
     <a href="#information">satomi</a>
   </div>
@@ -7,21 +7,19 @@
 <div class="project-header">Projects —</div>
 <ul class="client-list list-reset">    
   <% @pages.each do | page | %>
-    <li>
-    <%= link_to page_path(page.slug) do %>
-    <span class="title"><%= page.title %><% unless page == @pages.last %>,</span><% end%>
-    <% end %>
-    </li> 
+  <li>
+  <%= link_to page_path(page.slug) do %>
+  <span class="title"><%= page.title %><% unless page == @pages.last %>,</span> <% end%>
+  <% end %>
+  </li> 
   <% end %>
 </ul>
 
 <%= render 'about' %>
 
 <script>
-
 $('a[href*=\\#]').on('click', function(event){     
     event.preventDefault();
     $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
 });
-
 </script>

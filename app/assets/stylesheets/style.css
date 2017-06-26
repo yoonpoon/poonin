@@ -1,9 +1,0 @@
-.title {
-  -letter-kern: -letter-pairs(
-    'ne': -.07em,
-    'Ye': -.13em,
-    'LX': 0.04em,
-    'XV': 0.08em,
-    'ru': 0.04em);
-  visibility: hidden;
-}
