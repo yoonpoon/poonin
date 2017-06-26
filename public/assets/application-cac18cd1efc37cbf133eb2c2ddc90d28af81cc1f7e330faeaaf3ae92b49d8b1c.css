@@ -1,0 +1,588 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Nimbus Sans D OT';
+  src: url(/fonts/NimbusSansDOT-BlacExte.eot);
+  src: url(/fonts/NimbusSansDOT-BlacExte.eot?#iefix) format("embedded-opentype"), url(/assets/NimbusSansDOT-BlacExte-600dfa481470bebce849af25facb2fce651d0f22a59df4ecf3bb6aa517fae33d.woff) format("woff");
+  font-weight: 900;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+@font-face {
+  font-family: 'RiccioneSerial-Light';
+  src: url(/assets/340BC4_6_0-9499e7d6bbb995b80f58e0ba960589e57699f3518639c9ab2174f3c9c3a4055d.eot);
+  src: url(/assets/340BC4_6_0-9499e7d6bbb995b80f58e0ba960589e57699f3518639c9ab2174f3c9c3a4055d.eot?#iefix) format("embedded-opentype"), url(/assets/340BC4_6_0-d2d1d62025795c5661bbcaae4d09c5d16f68111bc024a500a564e681a7ebda87.woff2) format("woff2"), url(/assets/340BC4_6_0-56e258a65a6d2f9ec203f1a1a475b90c30e3783cde476171d809b2ecbac0e9e2.woff) format("woff");
+  -webkit-font-smoothing: antialiased;
+}
+@font-face {
+  font-family: 'RiccioneSerial-Xlight';
+  src: url(/assets/340BC4_C_0-ee72516bf629256697261f7db8b18cc941113b1c347a2008358ecd23652360c4.eot);
+  src: url(/assets/340BC4_C_0-ee72516bf629256697261f7db8b18cc941113b1c347a2008358ecd23652360c4.eot?#iefix) format("embedded-opentype"), url(/assets/340BC4_C_0-0c255e4ce6f187834986bf470e782fcf4b09882cc27bccbef9da345ea5b0f6c7.woff2) format("woff2"), url(/assets/340BC4_C_0-190f3a5b81fc85c34485f5eeec219b8b6cb47a9cba1f9fd8817ae424d4df5acc.woff) format("woff"), url(/assets/340BC4_C_0-ffd2b204a13d348cd57447d3f60d019c40a5a67f26ab8c1b475579962f7d0250.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'RiccioneSerial-XlightItalic';
+  src: url(/assets/340BC4_D_0-0dd6489e294a781918aa0cb1248447183b66957917ce36d44daee6e198b45793.eot);
+  src: url(/assets/340BC4_D_0-0dd6489e294a781918aa0cb1248447183b66957917ce36d44daee6e198b45793.eot?#iefix) format("embedded-opentype"), url(/assets/340BC4_D_0-4a0b24b436843a4ff85460d61d3e7ec179a14a77a905532abdc7d61049fc957e.woff2) format("woff2"), url(/assets/340BC4_D_0-1b168264ea81bbee2e8722c3f868a7312bd331aa6ff1b22afe152245e7e8cdb4.woff) format("woff"), url(/assets/340BC4_D_0-ad45888a69536274b845b58a4a2515f3f440c1e4bd3f7cbf1682eb30ef1defea.ttf) format("truetype");
+}
+@media only screen and (max-width: 750px) {
+  /* line 40, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .close {
+    font-size: 24px !important;
+    right: 0.65em !important;
+    top: 0.6em !important;
+  }
+
+  /* line 46, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .header {
+    padding-top: 2rem !important;
+  }
+
+  /* line 50, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  body {
+    padding-left: 1.5rem !important;
+    padding-right: 1rem !important;
+  }
+
+  /* line 55, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .img-wrap img {
+    margin-bottom: 5em !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  /* line 61, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .ind-project-header, .ind-role-header, .ind-team-header {
+    font-size: 20px !important;
+  }
+}
+/* ---------------- IPAD –-------------------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 74, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  body {
+    padding-top: 4em !important;
+  }
+
+  /* line 78, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .object-fit-cover {
+    max-height: 620px !important;
+    object-fit: contain !important;
+  }
+
+  /* line 83, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .img-wrap img {
+    margin-bottom: 9em !important;
+    width: 100% !important;
+    height: 200% !important;
+  }
+
+  /* line 89, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .img-wrap img:last-child {
+    margin-bottom: -1em !important;
+  }
+
+  /* line 93, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .close {
+    font-size: 40px !important;
+    right: 0.9em !important;
+    top: 1.4em !important;
+  }
+
+  /* line 99, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  blockquote {
+    margin-bottom: 0.6em !important;
+  }
+}
+/* ---------------- IPHONE 6+ –-------------------- */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 112, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .info-wrap p {
+    font-size: 5vw !important;
+  }
+
+  /* line 116, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .header {
+    margin-bottom: 0rem !important;
+    padding-bottom: 0.2rem !important;
+  }
+
+  /* line 121, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  #services, #information, #clients, #contact {
+    font-size: 44px !important;
+  }
+
+  /* line 125, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .img-wrap img {
+    width: 100% !important;
+  }
+
+  /* line 129, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .img-wrap img:last-child {
+    margin-bottom: -1em !important;
+  }
+}
+/* ---------------- IPHONE6 AND 7 –-------------------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 145, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .list-reset {
+    letter-spacing: 0.2rem !important;
+    width: 100% !important;
+  }
+
+  /* line 150, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .info-text p {
+    font-size: 4.5vw !important;
+    letter-spacing: 0.13rem !important;
+  }
+
+  /* line 155, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .services-text p {
+    font-size: 4.5vw !important;
+  }
+
+  /* line 159, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .clients-text p {
+    font-size: 4.5vw !important;
+  }
+
+  /* line 163, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .contact-text p {
+    font-size: 4.5vw !important;
+  }
+
+  /* line 167, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .credits-text p {
+    font-size: 4.5vw !important;
+  }
+
+  /* line 176, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .ind-project-header, .ind-team-header, .ind-role-header {
+    font-size: 4.5vw !important;
+  }
+
+  /* line 180, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .object-fit-cover {
+    max-height: 800px !important;
+    object-fit: contain !important;
+  }
+
+  /* line 185, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .img-wrap img {
+    margin-bottom: 14em !important;
+    width: 100% !important;
+    height: 200% !important;
+  }
+
+  /* line 191, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .header {
+    margin-bottom: 4rem !important;
+  }
+
+  /* line 195, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  #logo {
+    font-size: 12vw !important;
+  }
+
+  /* line 199, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  #services, #information, #clients, #contact {
+    font-size: 4.5vw !important;
+  }
+
+  /* line 203, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .close {
+    font-size: 75px !important;
+    right: 0.28em !important;
+    top: 0.3em !important;
+  }
+
+  /* line 209, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .img-wrap img:last-child {
+    margin-bottom: -4.5em !important;
+  }
+
+  /* line 213, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .img-wrap img:first-child {
+    margin-top: 16em !important;
+  }
+
+  /* line 217, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  body {
+    padding-top: -3em !important;
+    padding-left: 0em !important;
+    padding-right: 0em !important;
+  }
+
+  /* line 223, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .project-header {
+    font-size: 3vw !important;
+  }
+}
+/* ---------------- IPHONE5 –-------------------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 235, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .nav {
+    padding-left: 0 !important;
+  }
+
+  /* line 239, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .nav-items {
+    margin-top: -1.5rem !important;
+  }
+
+  /* line 243, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .ind-project-header, .ind-team-header, .ind-role-header {
+    font-size: 24px !important;
+  }
+
+  /* line 247, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .img-wrap img {
+    margin-bottom: 5em !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  /* line 253, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .header {
+    margin-bottom: 4rem !important;
+  }
+
+  /* line 257, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  #logo {
+    font-size: 12vw !important;
+  }
+
+  /* line 261, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .close {
+    font-size: 80px !important;
+    right: 0.7em !important;
+    top: 0.9em !important;
+  }
+
+  /* line 267, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .img-wrap img:last-child {
+    margin-bottom: -2.5em !important;
+  }
+
+  /* line 271, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  .img-wrap img:first-child {
+    margin-top: 18em !important;
+  }
+
+  /* line 275, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+  body {
+    padding-right: 4.8rem !important;
+    padding-left: 4.8rem !important;
+    padding-top: 3rem !important;
+  }
+}
+/* line 286, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+html {
+  font-size: calc(.5px + 1vw);
+}
+
+/* line 288, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+body {
+  padding-top: .9rem;
+  padding-bottom: 1rem;
+  padding-right: 4.8rem;
+  padding-left: 3.5rem;
+  margin-top: 0;
+  opacity: 1;
+  transition: .5s opacity;
+}
+
+/* line 298, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+body.fade-out {
+  opacity: 0;
+  transition: none;
+}
+
+/* line 303, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.header {
+  padding-bottom: 2.7vw;
+}
+
+/* line 307, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+#logo {
+  font-size: 10vw;
+  font-family: "Nimbus Sans D OT";
+  letter-spacing: -.25vw;
+  color: #600001;
+}
+
+/* line 314, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+#logo a:hover {
+  color: #828180;
+  cursor: pointer;
+}
+
+/* ------------------ INDEX CSS -------------- */
+/*.client-list {
+  font-size: 12.2vw;
+  font-family: "times";
+  color: #600001;
+  margin: 0 auto;
+  letter-spacing: -.04rem;
+  margin-bottom: 8rem;
+}*/
+/* line 329, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.client-list a:hover {
+  color: #828180;
+  cursor: pointer;
+}
+
+/* line 334, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.x {
+  font-family: sans-serif;
+}
+
+/* line 338, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+#images:focus {
+  color: #828180;
+}
+
+/* line 342, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.info-wrap a:hover {
+  color: #828180;
+}
+
+/* line 346, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.info-byline {
+  margin-bottom: 3rem;
+}
+
+/* line 350, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+#services, #contact, #clients, #credits, #social-media {
+  margin-top: 9.5rem;
+  margin-bottom: 5.5rem;
+  font-size: 5vw;
+  letter-spacing: 0.025em;
+  font-family: 'RiccioneSerial-Light';
+}
+
+/* line 358, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.info-text {
+  font-family: 'RiccioneSerial-Xlight';
+  letter-spacing: 0.025em;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 364, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.project-header {
+  font-family: 'RiccioneSerial-Light';
+  font-size: 20px;
+  letter-spacing: 0.035em;
+  color: #600001;
+  margin-bottom: 3.5rem;
+  letter-spacing: 0.04rem;
+}
+
+/* line 373, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.client-list a {
+  font-size: 13.3vw;
+  font-family: 'RiccioneSerial-Light';
+  color: #600001;
+  margin: 0 auto;
+  letter-spacing: 0.006em;
+  line-height: 12rem;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 383, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+#information, #services, #clients, #contact {
+  margin-top: 8rem;
+  margin-bottom: 5.5rem;
+  font-family: 'RiccioneSerial-Light';
+  letter-spacing: 0.035em;
+}
+
+/* line 390, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.info-wrap {
+  font-family: 'RiccioneSerial-Xlight';
+  font-size: 5vw;
+  color: #600001;
+  letter-spacing: 0.025em;
+}
+
+/* line 397, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.info-byline {
+  margin-bottom: 3rem;
+}
+
+/* line 401, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+a {
+  text-decoration: none;
+  color: #600001;
+}
+
+/* line 406, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.project-num {
+  font-family: "times";
+  font-size: 14px;
+  color: #600001;
+  text-align: center;
+}
+
+/* line 413, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.project-role {
+  margin-bottom: 3rem;
+}
+
+/* INDIVIDUAL PROJECT PAGE CSS */
+/* line 419, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.credit-wrap {
+  color: #600001;
+  text-align: center;
+  padding-top: 5em;
+  width: 85%;
+}
+
+/* line 426, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.ind-project-header {
+  /*  font-size: 2.5vw;*/
+  font-family: 'RiccioneSerial-Light';
+  font-size: 32px;
+  letter-spacing: 0.035em;
+  padding-bottom: 7vw;
+}
+
+/* line 434, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.img-wrap {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 3.5em;
+}
+
+/* line 440, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.object-fit-cover {
+  max-height: 550px;
+  width: 70%;
+  object-fit: contain;
+}
+
+/* line 446, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.img-wrap img {
+  margin-bottom: 5.5em;
+}
+
+/* line 450, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.img-wrap img:last-child {
+  margin-bottom: -3.7em;
+}
+
+/* line 454, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.img-wrap img:first-child {
+  margin-top: 9em;
+}
+
+/* line 458, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.ind-project-title {
+  font-family: 'RiccioneSerial-Light';
+  font-size: 11vw;
+  line-height: 0.94em;
+  letter-spacing: 0.035em;
+}
+
+/* line 465, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.ind-role-header {
+  /*  font-size: 2.5vw;*/
+  font-size: 32px;
+  letter-spacing: 0.035em;
+  padding-top: 7vw;
+  padding-bottom: 7vw;
+  font-family: 'RiccioneSerial-Light';
+}
+
+/* line 474, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.ind-role-title {
+  font-family: 'RiccioneSerial-Light';
+  font-size: 11vw;
+  letter-spacing: 0.035em;
+}
+
+/* line 480, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.ind-role-title p {
+  margin-bottom: 0px;
+  line-height: 0.94em;
+}
+
+/* line 485, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.ind-team-header {
+  font-size: 32px;
+  letter-spacing: 0.035em;
+  padding-top: 7vw;
+  padding-bottom: 7vw;
+  font-family: 'RiccioneSerial-Light';
+}
+
+/* line 493, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.ind-team-role {
+  font-size: 11vw;
+  line-height: 0.94em;
+  padding-bottom: .45em;
+}
+
+/* line 499, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.ind-team-name {
+  font-family: 'RiccioneSerial-Light';
+  font-size: 11vw;
+  line-height: 0.94em;
+  letter-spacing: 0.30rem;
+}
+
+/* line 506, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.credit-wrap p {
+  margin: 0;
+}
+
+/* line 510, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.close-wrap {
+  background-color: red;
+  float: right;
+}
+
+/* line 515, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.close {
+  font-size: 28px;
+  color: #828180;
+  right: 2.7em;
+  top: 1.5em;
+}
+
+/* line 522, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.close a:hover {
+  color: #828180;
+  cursor: pointer;
+}
+
+/* line 527, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.turbolinks-progress-bar {
+  background-color: #600001;
+}
+
+/* line 531, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+em {
+  margin-top: .05em;
+  font-family: 'RiccioneSerial-XlightItalic';
+  font-size: 11vw;
+  letter-spacing: 0.035em;
+}
+
+/* line 539, /Users/Albert/Desktop/_satomi/satomi/app/assets/stylesheets/pages.scss */
+.ind-team-name p {
+  padding-bottom: 1.3em;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
