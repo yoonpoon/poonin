@@ -182,7 +182,7 @@
     }    
 
     .img-wrap img {
-      margin-bottom: 14em!important;
+      padding-bottom: 2em!important;
       width: 100%!important;
       height: 200%!important;      
     } 
@@ -201,8 +201,8 @@
 
     .close {
       font-size: 75px!important;
-      right: 0.28em!important;
-      top: 0.3em!important; 
+      right: 0.15em!important;
+      top: 0.2em!important; 
     }
 
     .img-wrap img:last-child {
@@ -244,7 +244,7 @@
     }
 
     .img-wrap img {
-      margin-bottom: 5em!important;
+      padding-bottom: 3em!important;
       width: 100%!important;
       height: 100%!important;      
     } 
@@ -259,8 +259,8 @@
 
     .close {
       font-size: 80px!important;
-      right: .70em!important;
-      top: 0.90em!important;
+      right: .82em!important;
+      top: 0.82em!important;
     }
 
     .img-wrap img:last-child {
@@ -419,7 +419,7 @@ a {
   color: #600001;
   text-align: center;
   padding-top: 5em;
-  width: 85%;  
+  width: 80%;  
 }
 
 .ind-project-header {
@@ -428,6 +428,7 @@ a {
   font-size: 32px;
   letter-spacing: 0.035em;
   padding-bottom: 7vw;
+  text-align: center;
 }
 
 .img-wrap {
@@ -457,8 +458,8 @@ a {
 .ind-project-title {
   font-family: 'RiccioneSerial-Light';
   font-size: 11vw;
+  letter-spacing: 0.006em;
   line-height: 0.94em;
-  letter-spacing: 0.035em;
 }
 
 .ind-role-header {
@@ -468,12 +469,13 @@ a {
   padding-top: 7vw;
   padding-bottom: 7vw;
   font-family: 'RiccioneSerial-Light';
+  text-align: center;
 }
 
 .ind-role-title {
   font-family: 'RiccioneSerial-Light';
   font-size: 11vw;
-  letter-spacing: 0.035em;
+  letter-spacing: 0.006em;
 }
 
 .ind-role-title p {
@@ -487,11 +489,13 @@ a {
   padding-top: 7vw;
   padding-bottom: 7vw;
   font-family: 'RiccioneSerial-Light';
+  text-align: center;
 }
 
 .ind-team-role {
   font-size: 11vw;
   line-height: 0.94em;
+  letter-spacing: 0.006em;  
   padding-bottom: .45em;  
 }
 
@@ -499,7 +503,7 @@ a {
   font-family: 'RiccioneSerial-Light';
   font-size: 11vw;
   line-height: 0.94em;
-  letter-spacing: 0.30rem;
+  letter-spacing: 0.006em;
 }
 
 .credit-wrap p {
@@ -528,13 +532,11 @@ a {
 }
 
 em {
-  margin-top: .05em;
-  // margin-bottom: 1.2em;
   font-family: 'RiccioneSerial-XlightItalic';
   font-size: 11vw;
-  letter-spacing: 0.035em;  
+  letter-spacing: 0.006em;
 }
 
 .ind-team-name p {
-  padding-bottom: 1.3em;
+  padding-bottom: 1.1em;
 }
