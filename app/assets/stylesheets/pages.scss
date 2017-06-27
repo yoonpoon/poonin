@@ -14,7 +14,10 @@
   src: font-url('340BC4_6_0.eot?#iefix') format('embedded-opentype'), 
     font-url('340BC4_6_0.woff2') format('woff2'), 
     font-url('340BC4_6_0.woff') format('woff');  
-    -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased; 
+  -webkit-font-variant-ligatures: unset;
+  font-variant-ligatures: none;
+  font-feature-settings: none;  
 }
 
 @font-face {
@@ -33,6 +36,29 @@
       font-url('340BC4_D_0.woff2') format('woff2'), 
       font-url('340BC4_D_0.woff') format('woff'), 
       font-url('340BC4_D_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Executive';
+  src: font-url('Executive-Light.eot');
+  src: font-url('Executive-Light.eot?#iefix') format('embedded-opentype'),
+    font-url('Executive-Light.woff') format('woff'),
+    font-url('Executive-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;  
+}
+
+@font-face {
+  font-family: 'Executive';
+  src: font-url('Executive-Regular.eot');
+  src: font-url('Executive-Regular.eot?#iefix') format('embedded-opentype'),
+    font-url('Executive-Regular.woff') format('woff'),
+    font-url('Executive-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;    
+  text-rendering: optimizeLegibility;  
 }
 
 @media only screen and (max-width: 750px) {
@@ -61,7 +87,6 @@
   .ind-project-header, .ind-role-header, .ind-team-header  {
     font-size: 20px!important;
   }
-
 }
 
 /* ---------------- IPAD –-------------------- */
@@ -143,7 +168,6 @@
     // }
 
     .list-reset {
-      letter-spacing: 0.2rem!important;
       width: 100%!important;
     }
 
@@ -311,8 +335,30 @@ body.fade-out {
 }
 
 #logo a:hover {
-   color:#828180;
-    cursor: pointer; 
+  color:#828180;
+  cursor: pointer; 
+}
+
+.info-2 {
+  font-family: 'Executive';
+  font-weight: 300;
+  color: #600001;
+  font-size: 32px;
+}
+
+#info-2 a:hover {
+  color: #828180;
+  cursor: pointer; 
+}
+
+.project-title {
+  font-family: 'Executive';
+  font-weight: 300;
+  font-style: normal;
+  color: #600001;
+  font-size: 24px;
+  padding-bottom: 1.5em;
+  margin-top: 2em;
 }
 
 /* ------------------ INDEX CSS -------------- */
@@ -370,13 +416,15 @@ body.fade-out {
 }
 
 .client-list a {
-  font-size: 13.3vw;
-  font-family: 'RiccioneSerial-Light';
+  font-size: 14vw;
+  // font-family: 'RiccioneSerial-Light';
+  font-family: 'Executive';
   color: #600001;
   margin: 0 auto;
-  letter-spacing: 0.006em;
-  line-height: 12rem;
-  text-rendering: optimizeLegibility;  
+  letter-spacing: -.05em;
+  line-height: 0.90em;
+  font-weight: normal;
+  font-style: normal;
 }
 
 #information, #services, #clients, #contact {
