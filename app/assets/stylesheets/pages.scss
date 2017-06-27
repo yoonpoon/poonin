@@ -38,29 +38,6 @@
       font-url('340BC4_D_0.ttf') format('truetype');
 }
 
-@font-face {
-  font-family: 'Executive';
-  src: font-url('Executive-Light.eot');
-  src: font-url('Executive-Light.eot?#iefix') format('embedded-opentype'),
-    font-url('Executive-Light.woff') format('woff'),
-    font-url('Executive-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;  
-}
-
-@font-face {
-  font-family: 'Executive';
-  src: font-url('Executive-Regular.eot');
-  src: font-url('Executive-Regular.eot?#iefix') format('embedded-opentype'),
-    font-url('Executive-Regular.woff') format('woff'),
-    font-url('Executive-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;    
-  text-rendering: optimizeLegibility;  
-}
-
 @media only screen and (max-width: 750px) {
   
   .close {
@@ -315,7 +292,9 @@ body {
   padding-left: 3.5rem;
   margin-top: 0;
   opacity: 1;
-  transition: .5s opacity;     
+  transition: .5s opacity;  
+  -webkit-font-smoothing: antialiased; 
+  text-rendering: optimizeLegibility; 
 }
 
 body.fade-out {
@@ -323,42 +302,33 @@ body.fade-out {
     transition: none;
 }
 
-.header {
-  padding-bottom: 2.7vw;
-}
+// #logo {
+//   font-size: 10vw;
+//   font-family: "Nimbus Sans D OT";
+//   letter-spacing: -.25vw;
+//   color:#600001;
+// }
 
-#logo {
-  font-size: 10vw;
-  font-family: "Nimbus Sans D OT";
-  letter-spacing: -.25vw;
-  color:#600001;
-}
-
-#logo a:hover {
-  color:#828180;
-  cursor: pointer; 
-}
-
-.info-2 {
-  font-family: 'Executive';
-  font-weight: 300;
-  color: #600001;
-  font-size: 32px;
-}
-
-#info-2 a:hover {
+.info-2 a:hover {
   color: #828180;
   cursor: pointer; 
 }
 
-.project-title {
-  font-family: 'Executive';
-  font-weight: 300;
-  font-style: normal;
+.info-2 {
+  text-align: right;
+}
+
+.wrap {
+  padding-bottom: 2.5em;
+  margin-top: 3em;
+}
+
+.projects, .info-2 {
+  font-family: 'RiccioneSerial-Light';
+  font-size: 22px;
   color: #600001;
-  font-size: 24px;
-  padding-bottom: 1.5em;
-  margin-top: 2em;
+  letter-spacing: 0.020em;
+  text-rendering: optimizeLegibility;
 }
 
 /* ------------------ INDEX CSS -------------- */
@@ -416,15 +386,14 @@ body.fade-out {
 }
 
 .client-list a {
-  font-size: 4vw;
+  font-size: 13vw;
   // font-family: 'RiccioneSerial-Light';
-  font-family: 'Executive';
+  font-family: 'Arial';
   color: #600001;
   margin: 0 auto;
-  letter-spacing: -.03em;
-  line-height: 0.90em;
-  font-weight: normal;
-  font-style: normal;
+  letter-spacing: 0.01em;
+  line-height: 0.95em;
+  text-rendering: optimizeLegibility;
 }
 
 #information, #services, #clients, #contact {
