@@ -1,0 +1,605 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Nimbus Sans D OT';
+  src: url(/fonts/NimbusSansDOT-BlacExte.eot);
+  src: url(/fonts/NimbusSansDOT-BlacExte.eot?#iefix) format("embedded-opentype"), url(/assets/NimbusSansDOT-BlacExte-600dfa481470bebce849af25facb2fce651d0f22a59df4ecf3bb6aa517fae33d.woff) format("woff");
+  font-weight: 900;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+@font-face {
+  font-family: 'executive55_regular';
+  src: url(/assets/executive-55regular-webfont-e9b7437782a2de99fc40497da7b6384235e6afbcc186ce15fa8ce204f98bf3b0.eot);
+  src: url(/assets/executive-55regular-webfont-e9b7437782a2de99fc40497da7b6384235e6afbcc186ce15fa8ce204f98bf3b0.eot?#iefix) format("embedded-opentype"), url(/assets/executive-55regular-webfont-f8a746df48777b9c73f7521a717bbca3f10dfc8b5f38c2e57bb6883bec832bd4.woff2) format("woff2"), url(/assets/executive-55regular-webfont-6eb2d06ce44b9bd7dfe5e423d0f905260cd1bf847354b345787486f5e11bbc74.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+@font-face {
+  font-family: 'executive45_light';
+  src: url(/assets/executive-45light-webfont-3c83da3eab960a549faa21276c71b94248bdbdb579c317c40430eb710c2733a6.woff2) format("woff2"), url(/assets/executive-45light-webfont-a97a51e6807d90514f9675fbc995dfc25332a99428d837e120ac43732257abf0.woff) format("woff"), url(/fonts/executive-45light-webfont.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+@font-face {
+  font-family: 'RiccioneSerial-Light';
+  src: url(/assets/340BC4_6_0-9499e7d6bbb995b80f58e0ba960589e57699f3518639c9ab2174f3c9c3a4055d.eot);
+  src: url(/assets/340BC4_6_0-9499e7d6bbb995b80f58e0ba960589e57699f3518639c9ab2174f3c9c3a4055d.eot?#iefix) format("embedded-opentype"), url(/assets/340BC4_6_0-d2d1d62025795c5661bbcaae4d09c5d16f68111bc024a500a564e681a7ebda87.woff2) format("woff2"), url(/assets/340BC4_6_0-56e258a65a6d2f9ec203f1a1a475b90c30e3783cde476171d809b2ecbac0e9e2.woff) format("woff");
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-variant-ligatures: unset;
+  font-variant-ligatures: none;
+  font-feature-settings: none;
+}
+@font-face {
+  font-family: 'RiccioneSerial-Xlight';
+  src: url(/assets/340BC4_C_0-ee72516bf629256697261f7db8b18cc941113b1c347a2008358ecd23652360c4.eot);
+  src: url(/assets/340BC4_C_0-ee72516bf629256697261f7db8b18cc941113b1c347a2008358ecd23652360c4.eot?#iefix) format("embedded-opentype"), url(/assets/340BC4_C_0-0c255e4ce6f187834986bf470e782fcf4b09882cc27bccbef9da345ea5b0f6c7.woff2) format("woff2"), url(/assets/340BC4_C_0-190f3a5b81fc85c34485f5eeec219b8b6cb47a9cba1f9fd8817ae424d4df5acc.woff) format("woff"), url(/assets/340BC4_C_0-ffd2b204a13d348cd57447d3f60d019c40a5a67f26ab8c1b475579962f7d0250.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'RiccioneSerial-XlightItalic';
+  src: url(/assets/340BC4_D_0-0dd6489e294a781918aa0cb1248447183b66957917ce36d44daee6e198b45793.eot);
+  src: url(/assets/340BC4_D_0-0dd6489e294a781918aa0cb1248447183b66957917ce36d44daee6e198b45793.eot?#iefix) format("embedded-opentype"), url(/assets/340BC4_D_0-4a0b24b436843a4ff85460d61d3e7ec179a14a77a905532abdc7d61049fc957e.woff2) format("woff2"), url(/assets/340BC4_D_0-1b168264ea81bbee2e8722c3f868a7312bd331aa6ff1b22afe152245e7e8cdb4.woff) format("woff"), url(/assets/340BC4_D_0-ad45888a69536274b845b58a4a2515f3f440c1e4bd3f7cbf1682eb30ef1defea.ttf) format("truetype");
+}
+@media only screen and (max-width: 750px) {
+  /* line 64, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .close {
+    font-size: 24px !important;
+    right: 0.65em !important;
+    top: 0.6em !important;
+  }
+
+  /* line 70, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .header {
+    padding-top: 2rem !important;
+  }
+
+  /* line 74, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  body {
+    padding-left: 0.5rem !important;
+    padding-right: 1rem !important;
+  }
+
+  /* line 79, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .img-wrap img {
+    margin-bottom: 5em !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  /* line 85, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .ind-project-header, .ind-role-header, .ind-team-header {
+    font-size: 20px !important;
+  }
+}
+/* ---------------- IPAD –-------------------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 97, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  body {
+    padding-top: 4em !important;
+  }
+
+  /* line 101, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .object-fit-cover {
+    max-height: 620px !important;
+    object-fit: contain !important;
+  }
+
+  /* line 106, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .img-wrap img {
+    margin-bottom: 9em !important;
+    width: 100% !important;
+    height: 200% !important;
+  }
+
+  /* line 112, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .img-wrap img:last-child {
+    margin-bottom: -1em !important;
+  }
+
+  /* line 116, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .close {
+    font-size: 40px !important;
+    right: 0.9em !important;
+    top: 1.4em !important;
+  }
+
+  /* line 122, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  blockquote {
+    margin-bottom: 0.6em !important;
+  }
+}
+/* ---------------- IPHONE 6+ –-------------------- */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 134, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .info-wrap p {
+    font-size: 5vw !important;
+  }
+
+  /* line 138, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .header {
+    margin-bottom: 0rem !important;
+    padding-bottom: 0.2rem !important;
+  }
+
+  /* line 143, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  #services, #information, #clients, #contact {
+    font-size: 44px !important;
+  }
+
+  /* line 147, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .img-wrap img {
+    width: 100% !important;
+  }
+
+  /* line 151, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .img-wrap img:last-child {
+    margin-bottom: -1em !important;
+  }
+}
+/* ---------------- IPHONE6 AND 7 –-------------------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 167, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .list-reset {
+    width: 100% !important;
+  }
+
+  /* line 171, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .info-text p {
+    font-size: 4.5vw !important;
+    letter-spacing: 0.13rem !important;
+  }
+
+  /* line 176, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .services-text p {
+    font-size: 4.5vw !important;
+  }
+
+  /* line 180, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .clients-text p {
+    font-size: 4.5vw !important;
+  }
+
+  /* line 184, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .contact-text p {
+    font-size: 4.5vw !important;
+  }
+
+  /* line 188, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .credits-text p {
+    font-size: 4.5vw !important;
+  }
+
+  /* line 196, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .ind-project-header, .ind-team-header, .ind-role-header {
+    font-size: 4.5vw !important;
+  }
+
+  /* line 200, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .object-fit-cover {
+    max-height: 800px !important;
+    object-fit: contain !important;
+  }
+
+  /* line 205, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .img-wrap img {
+    padding-bottom: 2em !important;
+    width: 100% !important;
+    height: 200% !important;
+  }
+
+  /* line 211, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .header {
+    margin-bottom: 4rem !important;
+  }
+
+  /* line 215, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  #logo {
+    font-size: 12vw !important;
+  }
+
+  /* line 219, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  #services, #information, #clients, #contact {
+    font-size: 4.5vw !important;
+  }
+
+  /* line 223, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .close {
+    font-size: 75px !important;
+    right: 0.15em !important;
+    top: 0.2em !important;
+  }
+
+  /* line 229, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .img-wrap img:last-child {
+    margin-bottom: -4.5em !important;
+  }
+
+  /* line 233, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .img-wrap img:first-child {
+    margin-top: 16em !important;
+  }
+
+  /* line 237, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  body {
+    padding-top: -3em !important;
+    padding-left: 0em !important;
+    padding-right: 0em !important;
+  }
+
+  /* line 243, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .project-header {
+    font-size: 3vw !important;
+  }
+}
+/* ---------------- IPHONE5 –-------------------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 255, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .nav {
+    padding-left: 0 !important;
+  }
+
+  /* line 259, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .nav-items {
+    margin-top: -1.5rem !important;
+  }
+
+  /* line 263, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .ind-project-header, .ind-team-header, .ind-role-header {
+    font-size: 24px !important;
+  }
+
+  /* line 267, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .img-wrap img {
+    padding-bottom: 3em !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  /* line 273, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .header {
+    margin-bottom: 4rem !important;
+  }
+
+  /* line 277, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  #logo {
+    font-size: 12vw !important;
+  }
+
+  /* line 281, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .close {
+    font-size: 80px !important;
+    right: 0.82em !important;
+    top: 0.82em !important;
+  }
+
+  /* line 287, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .img-wrap img:last-child {
+    margin-bottom: -2.5em !important;
+  }
+
+  /* line 291, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  .img-wrap img:first-child {
+    margin-top: 18em !important;
+  }
+
+  /* line 295, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+  body {
+    padding-right: 4.8rem !important;
+    padding-left: 4.8rem !important;
+    padding-top: 3rem !important;
+  }
+}
+/* line 306, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+html {
+  font-size: calc(.5px + 1vw);
+}
+
+/* line 308, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+body {
+  padding-top: 1.8rem;
+  padding-bottom: 1rem;
+  padding-right: 4.2rem;
+  padding-left: 4.2rem;
+  margin-top: 0;
+  opacity: 1;
+  transition: .5s opacity;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 320, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+body.fade-out {
+  opacity: 0;
+  transition: none;
+}
+
+/* line 332, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.info-2 a:hover {
+  color: #828180;
+  cursor: pointer;
+}
+
+/* line 337, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.info-2 {
+  text-align: right;
+}
+
+/* line 341, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.wrap {
+  padding-bottom: 2.5em;
+  margin-top: 3em;
+}
+
+/* line 346, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.projects, .info-2 {
+  font-family: 'executive45_light';
+  font-size: 26px;
+  color: #600001;
+  letter-spacing: -.03em;
+}
+
+/* ------------------ INDEX CSS -------------- */
+/*.client-list {
+  font-size: 12.2vw;
+  font-family: "times";
+  color: #600001;
+  margin: 0 auto;
+  letter-spacing: -.04rem;
+  margin-bottom: 8rem;
+}*/
+/* line 363, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.client-list a:hover {
+  color: #828180;
+  cursor: pointer;
+}
+
+/* line 368, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.x {
+  font-family: sans-serif;
+}
+
+/* line 372, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+#images:focus {
+  color: #828180;
+}
+
+/* line 376, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.info-wrap a:hover {
+  color: #828180;
+}
+
+/* line 380, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.info-byline {
+  margin-bottom: 3rem;
+}
+
+/* line 384, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+#information, #services, #contact, #clients, #credits, #social-media {
+  margin-top: 7rem;
+  font-size: 5.2vw;
+  letter-spacing: -0.03em;
+  font-family: 'executive55_regular';
+}
+
+/* line 391, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.info-text {
+  font-family: 'executive45_light';
+  letter-spacing: -0.03em;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 397, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.project-header {
+  font-family: 'RiccioneSerial-Light';
+  font-size: 20px;
+  letter-spacing: 0.035em;
+  color: #600001;
+  margin-bottom: 3.5rem;
+  letter-spacing: 0.04rem;
+}
+
+/* line 406, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.client-list {
+  padding-top: 2.3em;
+}
+
+/* line 410, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.client-list a {
+  font-size: 13.5vw;
+  font-family: 'executive55_regular';
+  color: #600001;
+  margin: 0 auto;
+  letter-spacing: -.03em;
+  line-height: 0.95em;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 421, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.info-wrap {
+  font-family: 'executive45_light';
+  font-size: 3.55vw;
+  color: #600001;
+  letter-spacing: -.03em;
+}
+
+/* line 428, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.info-byline {
+  margin-bottom: 3rem;
+}
+
+/* line 432, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+a {
+  text-decoration: none;
+  color: #600001;
+}
+
+/* line 437, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.project-num {
+  font-family: "times";
+  font-size: 14px;
+  color: #600001;
+  text-align: center;
+}
+
+/* line 444, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.project-role {
+  margin-bottom: 3rem;
+}
+
+/* INDIVIDUAL PROJECT PAGE CSS */
+/* line 450, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.credit-wrap {
+  color: #600001;
+  text-align: center;
+  padding-top: 5em;
+  width: 80%;
+}
+
+/* line 457, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.ind-project-header {
+  /*  font-size: 2.5vw;*/
+  font-family: 'executive55_regular';
+  font-size: 26px;
+  letter-spacing: -0.03em;
+  padding-bottom: 4.5vw;
+  text-align: center;
+}
+
+/* line 466, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.img-wrap {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 3.5em;
+}
+
+/* line 472, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.object-fit-cover {
+  max-height: 550px;
+  width: 70%;
+  object-fit: contain;
+}
+
+/* line 478, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.img-wrap img {
+  margin-bottom: 10em;
+}
+
+/* line 482, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.img-wrap img:last-child {
+  margin-bottom: 1.8em;
+}
+
+/* line 486, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.img-wrap img:first-child {
+  margin-top: 6em;
+}
+
+/* line 490, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.ind-project-title {
+  font-family: 'executive55_regular';
+  font-size: 12vw;
+  letter-spacing: -0.03em;
+  line-height: 0.94em;
+}
+
+/* line 497, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.ind-role-header {
+  /*  font-size: 2.5vw;*/
+  font-size: 27px;
+  letter-spacing: -0.03em;
+  padding-top: 7vw;
+  padding-bottom: 4.5vw;
+  font-family: 'executive55_regular';
+  text-align: center;
+}
+
+/* line 507, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.ind-role-title {
+  font-family: 'executive55_regular';
+  font-size: 12vw;
+  letter-spacing: -0.03em;
+}
+
+/* line 513, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.ind-role-title p {
+  margin-bottom: 0px;
+  line-height: 0.94em;
+}
+
+/* line 518, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.ind-team-header {
+  font-size: 27px;
+  letter-spacing: -0.03em;
+  padding-top: 7vw;
+  padding-bottom: 4.5vw;
+  font-family: 'executive55_regular';
+  text-align: center;
+}
+
+/* line 527, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.ind-team-role {
+  font-size: 12vw;
+  line-height: 0.94em;
+  letter-spacing: 0.006em;
+  padding-bottom: .45em;
+}
+
+/* line 534, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.ind-team-name {
+  font-family: 'executive55_regular';
+  font-size: 12vw;
+  letter-spacing: -0.03em;
+  line-height: 0.94em;
+}
+
+/* line 541, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.credit-wrap p {
+  margin: 0;
+}
+
+/* line 545, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.close-wrap {
+  background-color: red;
+  float: right;
+}
+
+/* line 550, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.close {
+  font-size: 28px;
+  color: #828180;
+  right: 2.7em;
+  top: 1.5em;
+}
+
+/* line 557, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.close a:hover {
+  color: #828180;
+  cursor: pointer;
+}
+
+/* line 562, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.turbolinks-progress-bar {
+  background-color: #600001;
+}
+
+/* line 566, /Users/Albert/code/yoonpoon/satomi/app/assets/stylesheets/pages.scss */
+.ind-team-name p {
+  padding-bottom: .8em;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
