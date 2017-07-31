@@ -9,37 +9,58 @@
 }
 
 @font-face {
+    font-family: 'executive55_regular';
+    src: font-url('executive-55regular-webfont.eot');
+    src: font-url('executive-55regular-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('executive-55regular-webfont.woff2') format('woff2'),
+         font-url('executive-55regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: 'executive45_light';
+    src: font-url('executive-45light-webfont.woff2') format('woff2'),
+         font-url('executive-45light-webfont.woff') format('woff'),
+         font-url('executive-45light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
   font-family: 'RiccioneSerial-Light';
   src: font-url('340BC4_6_0.eot');
-  src: font-url('340BC4_6_0.eot?#iefix') format('embedded-opentype'), 
-    font-url('340BC4_6_0.woff2') format('woff2'), 
-    font-url('340BC4_6_0.woff') format('woff');  
-  -webkit-font-smoothing: antialiased; 
+  src: font-url('340BC4_6_0.eot?#iefix') format('embedded-opentype'),
+    font-url('340BC4_6_0.woff2') format('woff2'),
+    font-url('340BC4_6_0.woff') format('woff');
+  -webkit-font-smoothing: antialiased;
   -webkit-font-variant-ligatures: unset;
   font-variant-ligatures: none;
-  font-feature-settings: none;  
+  font-feature-settings: none;
 }
 
 @font-face {
     font-family: 'RiccioneSerial-Xlight';
     src: font-url('340BC4_C_0.eot');
-    src: font-url('340BC4_C_0.eot?#iefix') format('embedded-opentype'), 
-      font-url('340BC4_C_0.woff2') format('woff2'), 
-      font-url('340BC4_C_0.woff') format('woff'), 
+    src: font-url('340BC4_C_0.eot?#iefix') format('embedded-opentype'),
+      font-url('340BC4_C_0.woff2') format('woff2'),
+      font-url('340BC4_C_0.woff') format('woff'),
       font-url('340BC4_C_0.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'RiccioneSerial-XlightItalic';
     src: font-url('340BC4_D_0.eot');
-    src: font-url('340BC4_D_0.eot?#iefix') format('embedded-opentype'), 
-      font-url('340BC4_D_0.woff2') format('woff2'), 
-      font-url('340BC4_D_0.woff') format('woff'), 
+    src: font-url('340BC4_D_0.eot?#iefix') format('embedded-opentype'),
+      font-url('340BC4_D_0.woff2') format('woff2'),
+      font-url('340BC4_D_0.woff') format('woff'),
       font-url('340BC4_D_0.ttf') format('truetype');
 }
 
 @media only screen and (max-width: 750px) {
-  
+
   .close {
     font-size: 24px!important;
     right: .65em!important;
@@ -51,7 +72,7 @@
   }
 
   body {
-    padding-left: 1.5rem!important;
+    padding-left: .5rem!important;
     padding-right: 1rem!important;
   }
 
@@ -68,9 +89,9 @@
 
 /* ---------------- IPAD –-------------------- */
 
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
     body {
@@ -80,41 +101,40 @@
     .object-fit-cover {
       max-height: 620px!important;
       object-fit: contain!important;
-    }    
+    }
 
     .img-wrap img {
       margin-bottom: 9em!important;
       width: 100%!important;
-      height: 200%!important;      
-    } 
+      height: 200%!important;
+    }
 
     .img-wrap img:last-child {
       margin-bottom: -1em!important;
-    }    
+    }
 
     .close {
       font-size: 40px!important;
       right: 0.9em!important;
-      top: 1.4em!important; 
-    }    
+      top: 1.4em!important;
+    }
 
     blockquote {
       margin-bottom: 0.6em!important;
     }
 }
 
-
 /* ---------------- IPHONE 6+ –-------------------- */
 
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
     .info-wrap p {
       font-size: 5vw!important;
     }
-    
+
     .header {
       margin-bottom: 0rem!important;
       padding-bottom: .2rem!important;
@@ -135,11 +155,11 @@
 
 /* ---------------- IPHONE6 AND 7 –-------------------- */
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    
+
     // .nav {
     //   padding-left: 0!important;
     // }
@@ -180,13 +200,13 @@
     .object-fit-cover {
       max-height: 800px!important;
       object-fit: contain!important;
-    }    
+    }
 
     .img-wrap img {
       padding-bottom: 2em!important;
       width: 100%!important;
-      height: 200%!important;      
-    } 
+      height: 200%!important;
+    }
 
     .header {
       margin-bottom: 4rem!important;
@@ -203,7 +223,7 @@
     .close {
       font-size: 75px!important;
       right: 0.15em!important;
-      top: 0.2em!important; 
+      top: 0.2em!important;
     }
 
     .img-wrap img:last-child {
@@ -212,7 +232,7 @@
 
     .img-wrap img:first-child {
       margin-top: 16em!important;
-    } 
+    }
 
     body {
       padding-top: -3em!important;
@@ -227,11 +247,11 @@
 
 /* ---------------- IPHONE5 –-------------------- */
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px) 
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
-   
+
     .nav {
       padding-left: 0!important;
     }
@@ -247,13 +267,13 @@
     .img-wrap img {
       padding-bottom: 3em!important;
       width: 100%!important;
-      height: 100%!important;      
-    } 
+      height: 100%!important;
+    }
 
     .header {
       margin-bottom: 4rem!important;
     }
-    
+
     #logo {
       font-size: 12vw!important;
     }
@@ -286,15 +306,15 @@
 html { font-size: calc(.5px + 1vw) }
 
 body {
-  padding-top:.9rem;
-  padding-bottom:1rem;
-  padding-right: 4.8rem;
-  padding-left: 3.5rem;
+  padding-top: 1.8rem;
+  padding-bottom: 1rem;
+  padding-right: 4.2rem;
+  padding-left: 4.2rem;
   margin-top: 0;
   opacity: 1;
-  transition: .5s opacity;  
-  -webkit-font-smoothing: antialiased; 
-  text-rendering: optimizeLegibility; 
+  transition: .5s opacity;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 body.fade-out {
@@ -311,7 +331,7 @@ body.fade-out {
 
 .info-2 a:hover {
   color: #828180;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .info-2 {
@@ -324,11 +344,10 @@ body.fade-out {
 }
 
 .projects, .info-2 {
-  font-family: 'RiccioneSerial-Light';
-  font-size: 22px;
+  font-family: 'executive45_light';
+  font-size: 26px;
   color: #600001;
-  letter-spacing: 0.020em;
-  text-rendering: optimizeLegibility;
+  letter-spacing: -.03em;
 }
 
 /* ------------------ INDEX CSS -------------- */
@@ -362,17 +381,16 @@ body.fade-out {
   margin-bottom: 3rem;
 }
 
-#services, #contact, #clients, #credits, #social-media {
-  margin-top: 9.5rem;
-  margin-bottom: 5.5rem;
-  font-size: 5vw;
-  letter-spacing: 0.025em;
-  font-family: 'RiccioneSerial-Light';
+#information, #services, #contact, #clients, #credits, #social-media {
+  margin-top: 7rem;
+  font-size: 5.2vw;
+  letter-spacing: -0.03em;
+  font-family: 'executive55_regular';
 }
 
 .info-text {
-  font-family: 'RiccioneSerial-Xlight';
-  letter-spacing: 0.025em;
+  font-family: 'executive45_light';
+  letter-spacing: -0.03em;
   text-rendering: optimizeLegibility;
 }
 
@@ -380,34 +398,31 @@ body.fade-out {
   font-family: 'RiccioneSerial-Light';
   font-size: 20px;
   letter-spacing: 0.035em;
-  color:#600001; 
-  margin-bottom: 3.5rem; 
+  color:#600001;
+  margin-bottom: 3.5rem;
   letter-spacing: 0.04rem;
 }
 
+.client-list {
+  padding-top: 2.3em;
+}
+
 .client-list a {
-  font-size: 13vw;
+  font-size: 13.5vw;
   // font-family: 'RiccioneSerial-Light';
-  font-family: 'Arial';
+  font-family: 'executive55_regular';
   color: #600001;
   margin: 0 auto;
-  letter-spacing: 0.001em;
+  letter-spacing: -.03em;
   line-height: 0.95em;
   text-rendering: optimizeLegibility;
 }
 
-#information, #services, #clients, #contact {
-  margin-top: 8rem;
-  margin-bottom: 5.5rem;
-  font-family: 'RiccioneSerial-Light';
-  letter-spacing: 0.035em;
-}
-
 .info-wrap {
-  font-family: 'RiccioneSerial-Xlight';
-  font-size: 5vw;
+  font-family: 'executive45_light';
+  font-size: 3.55vw;
   color: #600001;
-  letter-spacing: 0.025em;
+  letter-spacing: -.03em;
 }
 
 .info-byline {
@@ -422,7 +437,7 @@ a {
 .project-num {
   font-family: "times";
   font-size: 14px;
-  color:#600001; 
+  color:#600001;
   text-align: center;
 }
 
@@ -436,15 +451,15 @@ a {
   color: #600001;
   text-align: center;
   padding-top: 5em;
-  width: 80%;  
+  width: 80%;
 }
 
 .ind-project-header {
 /*  font-size: 2.5vw;*/
-  font-family: 'RiccioneSerial-Light';
-  font-size: 32px;
-  letter-spacing: 0.035em;
-  padding-bottom: 7vw;
+  font-family: 'executive55_regular';
+  font-size: 26px;
+  letter-spacing: -0.03em;
+  padding-bottom: 4.5vw;
   text-align: center;
 }
 
@@ -466,33 +481,33 @@ a {
 
 .img-wrap img:last-child {
   margin-bottom: 1.8em;
-} 
+}
 
 .img-wrap img:first-child {
-  margin-top: 9em;
-} 
+  margin-top: 6em;
+}
 
 .ind-project-title {
-  font-family: 'RiccioneSerial-Light';
-  font-size: 11vw;
-  letter-spacing: 0.006em;
+  font-family: 'executive55_regular';
+  font-size: 12vw;
+  letter-spacing: -0.03em;
   line-height: 0.94em;
 }
 
 .ind-role-header {
 /*  font-size: 2.5vw;*/
-  font-size: 32px;
-  letter-spacing: 0.035em;
+  font-size: 27px;
+  letter-spacing: -0.03em;
   padding-top: 7vw;
-  padding-bottom: 7vw;
-  font-family: 'RiccioneSerial-Light';
+  padding-bottom: 4.5vw;
+  font-family: 'executive55_regular';
   text-align: center;
 }
 
 .ind-role-title {
-  font-family: 'RiccioneSerial-Light';
-  font-size: 11vw;
-  letter-spacing: 0.006em;
+  font-family: 'executive55_regular';
+  font-size: 12vw;
+  letter-spacing: -0.03em;
 }
 
 .ind-role-title p {
@@ -501,26 +516,26 @@ a {
 }
 
 .ind-team-header {
-  font-size: 32px;
-  letter-spacing: 0.035em;
+  font-size: 27px;
+  letter-spacing: -0.03em;
   padding-top: 7vw;
-  padding-bottom: 7vw;
-  font-family: 'RiccioneSerial-Light';
+  padding-bottom: 4.5vw;
+  font-family: 'executive55_regular';
   text-align: center;
 }
 
 .ind-team-role {
-  font-size: 11vw;
+  font-size: 12vw;
   line-height: 0.94em;
-  letter-spacing: 0.006em;  
-  padding-bottom: .45em;  
+  letter-spacing: 0.006em;
+  padding-bottom: .45em;
 }
 
 .ind-team-name {
-  font-family: 'RiccioneSerial-Light';
-  font-size: 11vw;
+  font-family: 'executive55_regular';
+  font-size: 12vw;
+  letter-spacing: -0.03em;
   line-height: 0.94em;
-  letter-spacing: 0.006em;
 }
 
 .credit-wrap p {
@@ -546,12 +561,6 @@ a {
 
 .turbolinks-progress-bar {
   background-color: #600001;
-}
-
-em {
-  font-family: 'RiccioneSerial-XlightItalic';
-  font-size: 11vw;
-  letter-spacing: 0.006em;
 }
 
 .ind-team-name p {
