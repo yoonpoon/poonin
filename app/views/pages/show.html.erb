@@ -1,12 +1,12 @@
 <div class="col-0 sm-flex close-wrap">
   <div class="fixed close">
-    <%= link_to 'X', root_path, class: 'x' %>    
+    <%= link_to 'X', root_path, class: 'x' %>
   </div>
 </div>
 
 <div class="img-wrap max-width-12 mx-auto">
   <% @page.projectGallery.all? do |asset| %>
-  <img class="object-fit-cover"<%= image_tag asset.url %>
+ <img class="object-fit-cover"<%= image_tag asset.url %>
   <% end %>
 </div>
 
