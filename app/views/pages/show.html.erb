@@ -6,7 +6,7 @@
 
 <div class="img-wrap max-width-12 mx-auto">
   <% @page.projectGallery.all? do |asset| %>
-    <%= image_tag asset.url, class: "object-fit-cover" %>
+    <%= image_tag asset.url, class: 'object-fit-cover' %>
   <% end %>
 </div>
 
@@ -26,6 +26,3 @@
       <div class="ind-team-name"> <%= parse_markdown @page.team %></div>
   </div>
 <% end %>
-
-
-

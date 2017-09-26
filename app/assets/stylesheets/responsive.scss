@@ -1,0 +1,329 @@
+/* --------- Reponsive for web --------- */
+
+@media only screen and (max-width: 550px) {
+
+  .close {
+    font-size: 24px!important;
+    right: .65em!important;
+    top: .6em!important;
+  }
+
+  .client-list {
+    padding-top: 7rem!important;
+  }
+
+  .header {
+    padding-top: 2rem!important;
+  }
+
+  body {
+    padding-left: .5rem!important;
+    padding-right: 1rem!important;
+    line-height: 6.3em!important;
+  }
+
+  .img-wrap img {
+    margin-bottom: 5em!important;
+    width: 100%!important;
+    height: 100%!important;
+  }
+
+  .ind-project-header, .ind-role-header, .ind-team-header  {
+    font-size: 20px!important;
+  }
+
+  .about {
+    width: 100%!important;
+  }
+
+  .about p {
+    font-size: 22px!important;
+  }
+
+  #information, #services, #contact, #clients, #credits, #social-media {
+    font-size: 26px!important;
+  }
+}
+
+
+/* ---------------- IPAD –-------------------- */
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    body {
+      padding-top: 4em!important;
+      padding-left: 1.5em!important;
+      padding-right: 1.5em!important;
+      line-height: 5.4em!important;
+    }
+
+    .x {
+      font-size: 80px!important;
+    }
+
+    .client-list a {
+      font-size: 14vw!important;
+    }
+
+    .client-list {
+      padding-top: 7em!important;
+    }
+
+    .projects, .info-2 {
+      font-size: 48px!important;
+    }
+
+    .object-fit-cover {
+      max-height: 620px!important;
+      object-fit: contain!important;
+    }
+
+    .img-wrap img {
+      margin-bottom: 9em!important;
+      width: 100%!important;
+      height: 200%!important;
+    }
+
+    .img-wrap img:last-child {
+      margin-bottom: -1em!important;
+    }
+
+    .close {
+      font-size: 60px!important;
+      right: 0.9em!important;
+      top: 1.4em!important;
+    }
+
+    #information, #services, #contact, #clients, #credits, #social-media {
+      font-size: 7.5vw!important;
+    }
+
+    .ind-project-header, .ind-role-header, .ind-team-header {
+      font-size: 50px!important;
+    }
+
+    .about {
+      width: 100%!important;
+      font-size: 55px!important;
+    }
+}
+
+
+/* ---------------- IPHONE 6+ –-------------------- */
+
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .info-wrap p {
+      font-size: 5vw!important;
+    }
+
+    .header {
+      margin-bottom: 0rem!important;
+      padding-bottom: .2rem!important;
+    }
+
+    #services, #information, #clients, #contact {
+      font-size: 44px!important;
+    }
+
+    .img-wrap img {
+      width: 100%!important;
+    }
+
+    .img-wrap img:last-child {
+      margin-bottom: -1em!important;
+    }
+
+    body {
+      line-height: 6.3em!important;
+    }
+}
+
+
+/* ---------------- IPHONE6 AND 7 –-------------------- */
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .list-reset {
+      width: 100%!important;
+    }
+
+    .info-text p {
+      font-size: 57px!important;
+      letter-spacing: -.03em!important;
+    }
+
+    .services-text p {
+      font-size: 57px!important;
+    }
+
+    .clients-text p {
+      font-size: 57px!important;
+    }
+
+    .contact-text p {
+      font-size: 57px!important;
+    }
+
+    .credits-text p {
+      font-size: 57px!important;
+    }
+
+    .social-media-text {
+      font-size: 57px!important;
+    }
+
+    .ind-project-header, .ind-team-header, .ind-role-header {
+      font-size: 57px!important;
+    }
+
+    .object-fit-cover {
+      max-height: 800px!important;
+      object-fit: contain!important;
+    }
+
+    .img-wrap img {
+      padding-bottom: 2em!important;
+      width: 100%!important;
+      height: 200%!important;
+    }
+
+    .header {
+      margin-bottom: 4rem!important;
+    }
+
+    #information, #services, #contact, #clients, #credits, #social-media {
+      font-size: 7.5vw!important;
+    }
+
+    .close {
+      font-size: 80px!important;
+      right: 0.15em!important;
+      top: 0.2em!important;
+    }
+
+    .img-wrap img:last-child {
+      margin-bottom: -4.5em!important;
+    }
+
+    .img-wrap img:first-child {
+      margin-top: 16em!important;
+    }
+
+    body {
+      padding-top: -3em!important;
+      padding-left: 0!important;
+      padding-right: 0!important;
+      line-height: 6.3em!important;
+    }
+
+    .project-header {
+      font-size: 3vw!important;
+    }
+
+    .projects, .info-2 {
+      font-size: 40px!important;
+    }
+
+    .client-list {
+      padding-top: 9em!important;
+    }
+
+    .about {
+      width: 100%!important;
+      font-size: 42px!important;
+    }
+
+    body {
+      line-height: 6.3em!important;
+    }
+}
+
+/* ---------------- IPHONE5 –-------------------- */
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .nav {
+      padding-left: 0!important;
+    }
+
+    .nav-items {
+      margin-top: -1.5rem!important;
+    }
+
+    .ind-project-header, .ind-team-header, .ind-role-header {
+      font-size: 50px!important;
+    }
+
+    .img-wrap img {
+      padding-bottom: 3em!important;
+      width: 100%!important;
+      height: 100%!important;
+    }
+
+    .header {
+      margin-bottom: 4rem!important;
+    }
+
+    .close {
+      font-size: 80px!important;
+      right: .82em!important;
+      top: 0.82em!important;
+    }
+
+    .img-wrap img:last-child {
+       margin-bottom: -2.5em!important;
+    }
+
+    .img-wrap img:first-child {
+      margin-top: 18em!important;
+    }
+
+    body {
+      padding-right: 2.2rem!important;
+      padding-left: 2.2rem!important;
+      padding-top: 3rem!important;
+    }
+
+    .projects, .info-2 {
+      font-size: 55px!important;
+      letter-spacing: -.03em!important;
+    }
+
+    .client-list {
+      padding-top: 3.5em!important;
+    }
+
+    .about {
+      width: 100%!important;
+    }
+
+    body {
+      line-height: 6.3em!important;
+    }
+
+    .object-fit-cover {
+      max-height: 800px!important;
+      object-fit: contain!important;
+    }
+
+    .img-wrap img {
+      padding-bottom: 2em!important;
+      width: 100%!important;
+      height: 200%!important;
+    }
+}
+
+

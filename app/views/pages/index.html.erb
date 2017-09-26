@@ -2,7 +2,6 @@
   <div class="projects col-6">Projects</div>
   <div class="info-2 col-6 right"><a href="#information">Information</a></div>
 </div>
-</div>
 
 <ul class="client-list list-reset">
   <% @pages.each do | page | %>
@@ -15,10 +14,3 @@
 </ul>
 
 <%= render 'about' %>
-
-<script>
-  $('a[href*=\\#]').on('click', function(event){
-      event.preventDefault();
-      $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
-  });
-</script>

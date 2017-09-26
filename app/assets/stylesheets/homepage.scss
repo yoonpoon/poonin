@@ -1,0 +1,88 @@
+.client-list a:hover {
+  color:#828180;
+  cursor: pointer;
+}
+
+.x {
+  font-family: sans-serif;
+}
+
+#images:focus {
+  color:#828180;
+}
+
+.info-wrap a:hover {
+  color: #828180;
+}
+
+#information, #services, #contact, #clients, #credits, #social-media {
+  margin-top: 7rem;
+  font-size: 5.2vw;
+  letter-spacing: -0.03em;
+  font-family: 'executive55_regular';
+}
+
+.info-text {
+  font-family: 'executive45_light';
+  letter-spacing: -0.03em;
+  text-rendering: optimizeLegibility;
+}
+
+.about {
+  width: 75%;
+}
+
+.client-list {
+  padding-top: 2.3em;
+}
+
+.client-list a {
+  font-size: 13vw;
+  font-family: 'executive55_regular';
+  color: #600001;
+  margin: 0 auto;
+  letter-spacing: -.03em;
+  line-height: 0.95em;
+  text-rendering: optimizeLegibility;
+}
+
+.info-wrap {
+  font-family: 'executive45_light';
+  font-size: 42px;
+  color: #600001;
+  letter-spacing: -.03em;
+}
+
+.info-byline {
+  margin-bottom: 3rem;
+}
+
+a {
+  text-decoration:none;
+  color: #600001;
+}
+
+.project-role {
+  margin-bottom: 3rem;
+}
+
+.info-2 a:hover {
+  color: #828180;
+  cursor: pointer;
+}
+
+.info-2 {
+  text-align: right;
+}
+
+.wrap {
+  padding-bottom: 2.5em;
+  margin-top: 3em;
+}
+
+.projects, .info-2 {
+  font-family: 'executive45_light';
+  font-size: 24px;
+  color: #600001;
+  letter-spacing: -.03em;
+}

@@ -1,0 +1,119 @@
+.credit-wrap {
+  color: #600001;
+  text-align: center;
+  padding-top: 5em;
+  width: 80%;
+}
+
+.ind-project-header {
+/*  font-size: 2.5vw;*/
+  font-family: 'executive55_regular';
+  font-size: 26px;
+  letter-spacing: -0.03em;
+  padding-bottom: 4.5vw;
+  text-align: center;
+}
+
+.img-wrap {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 3.5em;
+}
+
+.object-fit-cover {
+  max-height: 550px;
+  width: 70%;
+  object-fit: contain;
+}
+
+.img-wrap img {
+  margin-bottom: 10em;
+}
+
+.img-wrap img:last-child {
+  margin-bottom: 1.8em;
+}
+
+.img-wrap img:first-child {
+  margin-top: 6em;
+}
+
+.ind-project-title {
+  font-family: 'executive55_regular';
+  font-size: 12vw;
+  letter-spacing: -0.03em;
+  line-height: 0.94em;
+}
+
+.ind-role-header {
+/*  font-size: 2.5vw;*/
+  font-size: 27px;
+  letter-spacing: -0.03em;
+  padding-top: 7vw;
+  padding-bottom: 4.5vw;
+  font-family: 'executive55_regular';
+  text-align: center;
+}
+
+.ind-role-title {
+  font-family: 'executive55_regular';
+  font-size: 12vw;
+  letter-spacing: -0.03em;
+}
+
+.ind-role-title p {
+  margin-bottom: 0px;
+  line-height: 0.94em;
+}
+
+.ind-team-header {
+  font-size: 27px;
+  letter-spacing: -0.03em;
+  padding-top: 7vw;
+  padding-bottom: 4.5vw;
+  font-family: 'executive55_regular';
+  text-align: center;
+}
+
+.ind-team-role {
+  font-size: 12vw;
+  line-height: 0.94em;
+  letter-spacing: 0.006em;
+  padding-bottom: .45em;
+}
+
+.ind-team-name {
+  font-family: 'executive55_regular';
+  font-size: 12vw;
+  letter-spacing: -0.03em;
+  line-height: 0.94em;
+}
+
+.credit-wrap p {
+  margin: 0;
+}
+
+.close-wrap {
+  background-color: red;
+  float: right;
+}
+
+.close {
+  font-size: 28px;
+  color:#828180;
+  right: 2.7em;
+  top: 1.5em;
+}
+
+.close a:hover {
+  color: #828180;
+  cursor: pointer;
+}
+
+.turbolinks-progress-bar {
+  background-color: #600001;
+}
+
+.ind-team-name p {
+  padding-bottom: .8em;
+}

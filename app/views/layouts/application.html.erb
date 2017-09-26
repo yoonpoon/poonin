@@ -9,15 +9,11 @@
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/layzr.js/2.0.2/layzr.min.js"></script>
   </head>
 
   <body>
     <%= yield %>
+    <%= javascript_include_tag "application" %>
   </body>
 
-  <script>
-    $(document).ready(function() {
-         const instance = Layzr()
-    });
-  </script>
+</html>
