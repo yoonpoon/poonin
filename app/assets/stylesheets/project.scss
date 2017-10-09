@@ -22,7 +22,7 @@
 
 .object-fit-cover {
   max-height: 550px;
-  width: 70%;
+  width: 100%;
   object-fit: contain;
 }
 
@@ -117,3 +117,12 @@
 .ind-team-name p {
   padding-bottom: .8em;
 }
+
+// img {
+//   opacity: 1;
+//   transition: opacity 0.3s;
+// }
+
+// img[data-src] {
+//   opacity: 0;
+// }

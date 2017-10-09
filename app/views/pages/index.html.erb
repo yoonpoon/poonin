@@ -1,15 +1,27 @@
 <div class="flex wrap">
   <div class="projects col-6">Projects</div>
-  <div class="info-2 col-6 right"><a href="#information">Information</a></div>
+  <div class="info-2 col-6 right">
+    <a href="#information">Information</a>
+  </div>
 </div>
 
 <ul class="client-list list-reset">
   <% @pages.each do | page | %>
-  <li>
-  <%= link_to page_path(page.slug) do %>
-  <span class="title"><%= page.title %><% unless page == @pages.last %>,</span> <% end%>
-  <% end %>
-  </li>
+    <li class="tc">
+      <%= link_to page_path(page.slug) do %>
+        <%= image_tag page.projectGallery.first.image_url, class: 'object-fit-cover img-responsive mobile' %>
+        <div class="mobile-wrap">
+          <span class="title"><%= page.title %><% unless page == @pages.last %><span class="comma">,</span></span>
+            <% if page.projTitle %>
+              <span class="projectTitle"><%= page.projTitle %></span>
+            <% end %>
+            <% if page.role %>
+              <span class="projectRole"><%= page.role %></span>
+            <% end %>
+          <% end %>
+        </div>
+      <% end %>
+    </li>
   <% end %>
 </ul>
 

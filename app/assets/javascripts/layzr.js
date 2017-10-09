@@ -1,3 +1,3 @@
-$(document).ready(function() {
-   const instance = Layzr()
-});
+// $(document).ready(function() {
+//    const instance = Layzr()
+// });

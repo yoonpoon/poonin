@@ -1,3 +1,11 @@
+.projectTitle {
+  display: none;
+}
+
+.projectRole {
+  display: none;
+}
+
 .client-list a:hover {
   color:#828180;
   cursor: pointer;
@@ -85,4 +93,8 @@ a {
   font-size: 24px;
   color: #600001;
   letter-spacing: -.03em;
+}
+
+.img-responsive.mobile {
+  display: none;
 }

@@ -153,6 +153,47 @@
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
+    .img-responsive {
+      display: none;
+    }
+
+    .mobile-wrap {
+      margin: 0 auto;
+      width: 60%;
+      margin-bottom: .5em;
+    }
+
+    .title {
+      font-size: 55px;
+    }
+
+    .img-responsive.mobile {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .comma {
+      display: none;
+    }
+
+    .projectTitle {
+      display: block;
+      font-size: 55px;
+      line-height: 1;
+      margin-top: -20px;
+    }
+
+    .projectRole {
+      display: block;
+      font-size: 55px;
+      margin-top: 20px;
+      line-height: 1;
+    }
+
+    .tc {
+      text-align: center;
+    }
+
     .list-reset {
       width: 100%!important;
     }
