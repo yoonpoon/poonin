@@ -10,16 +10,15 @@
     <li class="tc">
       <%= link_to page_path(page.slug) do %>
         <%= image_tag page.projectGallery.first.image_url, class: 'object-fit-cover img-responsive mobile' %>
-        <div class="mobile-wrap">
-          <span class="title"><%= page.title %><% unless page == @pages.last %><span class="comma">,</span></span>
+        <span class="mobile-wrap">
+          <span class="title"><%= page.title %><% unless page == @pages.last %><span class="comma">,</span></span> <% end %>
             <% if page.projTitle %>
               <span class="projectTitle"><%= page.projTitle %></span>
             <% end %>
             <% if page.role %>
               <span class="projectRole"><%= page.role %></span>
             <% end %>
-          <% end %>
-        </div>
+        </span>
       <% end %>
     </li>
   <% end %>

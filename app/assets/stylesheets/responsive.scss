@@ -153,18 +153,24 @@
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
+    .projects.col-6, .info-2.col-6.right{
+      font-size: 45px!important;
+    }
+
     .img-responsive {
       display: none;
     }
 
     .mobile-wrap {
+      margin-top: -25px!important;
       margin: 0 auto;
-      width: 60%;
-      margin-bottom: .5em;
+      width: 45%!important;
+      margin-bottom: .8em;
+      display: block;
     }
 
     .title {
-      font-size: 55px;
+      font-size: 45px!important;
     }
 
     .img-responsive.mobile {
@@ -178,15 +184,15 @@
 
     .projectTitle {
       display: block;
-      font-size: 55px;
+      font-size: 45px;
       line-height: 1;
-      margin-top: -20px;
+      margin-top: -25px;
     }
 
     .projectRole {
       display: block;
-      font-size: 55px;
-      margin-top: 20px;
+      font-size: 45px;
+      margin-top: 15px;
       line-height: 1;
     }
 
@@ -230,12 +236,13 @@
     .object-fit-cover {
       max-height: 800px!important;
       object-fit: contain!important;
+      width: 100%!important;
     }
 
     .img-wrap img {
       padding-bottom: 2em!important;
       width: 100%!important;
-      height: 200%!important;
+      height: 500px!important;
     }
 
     .header {
@@ -296,6 +303,53 @@
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
+    .projects.col-6, .info-2.col-6.right{
+      font-size: 45px!important;
+    }
+
+    .img-responsive {
+      display: none;
+    }
+
+    .mobile-wrap {
+      margin-top: -25px!important;
+      margin: 0 auto;
+      width: 45%!important;
+      margin-bottom: .8em;
+      display: block;
+    }
+
+    .title {
+      font-size: 45px!important;
+    }
+
+    .img-responsive.mobile {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .comma {
+      display: none;
+    }
+
+    .projectTitle {
+      display: block;
+      font-size: 45px;
+      line-height: 1;
+      margin-top: -25px;
+    }
+
+    .projectRole {
+      display: block;
+      font-size: 45px;
+      margin-top: 15px;
+      line-height: 1;
+    }
+
+    .tc {
+      text-align: center;
+    }
+
     .nav {
       padding-left: 0!important;
     }
@@ -336,7 +390,9 @@
       padding-right: 2.2rem!important;
       padding-left: 2.2rem!important;
       padding-top: 3rem!important;
+      line-height: 6.3em!important;
     }
+
 
     .projects, .info-2 {
       font-size: 55px!important;
@@ -351,13 +407,10 @@
       width: 100%!important;
     }
 
-    body {
-      line-height: 6.3em!important;
-    }
-
     .object-fit-cover {
       max-height: 800px!important;
       object-fit: contain!important;
+      width: 100%!important;
     }
 
     .img-wrap img {
