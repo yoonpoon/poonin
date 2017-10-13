@@ -304,7 +304,7 @@
   and (-webkit-min-device-pixel-ratio: 2) {
 
     .projects.col-6, .info-2.col-6.right{
-      font-size: 45px!important;
+      font-size: 43px!important;
     }
 
     .img-responsive {
@@ -314,13 +314,13 @@
     .mobile-wrap {
       margin-top: -25px!important;
       margin: 0 auto;
-      width: 45%!important;
+      width: 70%!important;
       margin-bottom: .8em;
       display: block;
     }
 
     .title {
-      font-size: 45px!important;
+      font-size: 43px!important;
     }
 
     .img-responsive.mobile {
@@ -332,17 +332,19 @@
       display: none;
     }
 
+    .slash {
+      display: inline;
+      font-size: 43px;
+    }
+
     .projectTitle {
-      display: block;
-      font-size: 45px;
-      line-height: 1;
-      margin-top: -25px;
+      display: none;
     }
 
     .projectRole {
       display: block;
-      font-size: 45px;
-      margin-top: 15px;
+      font-size: 43px;
+      margin-top: -25px;
       line-height: 1;
     }
 

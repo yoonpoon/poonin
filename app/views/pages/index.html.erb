@@ -11,7 +11,9 @@
       <%= link_to page_path(page.slug) do %>
         <%= image_tag page.projectGallery.first.image_url, class: 'object-fit-cover img-responsive mobile' %>
         <span class="mobile-wrap">
-          <span class="title"><%= page.title %><% unless page == @pages.last %><span class="comma">,</span></span> <% end %>
+          <span class="title"><%= page.title %><% unless page == @pages.last %><span class="comma">,</span>
+            <span class="slash">/ <%=page.projTitle%></span>
+          </span> <% end %>
             <% if page.projTitle %>
               <span class="projectTitle"><%= page.projTitle %></span>
             <% end %>
