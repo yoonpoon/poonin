@@ -1,4 +1,4 @@
-/* --------- Reponsive for web --------- */
+/* --------- Reponsive 4 web --------- */
 
 @media only screen and (max-width: 550px) {
 
@@ -6,6 +6,10 @@
     font-size: 24px!important;
     right: .65em!important;
     top: .6em!important;
+  }
+
+  br {
+    display: none;
   }
 
   .client-list {
@@ -44,7 +48,6 @@
     font-size: 26px!important;
   }
 }
-
 
 /* ---------------- IPAD –-------------------- */
 
@@ -304,7 +307,7 @@
   and (-webkit-min-device-pixel-ratio: 2) {
 
     .projects.col-6, .info-2.col-6.right{
-      font-size: 43px!important;
+      font-size: 40px!important;
     }
 
     .img-responsive {
@@ -320,7 +323,8 @@
     }
 
     .title {
-      font-size: 43px!important;
+      font-size: 36px!important;
+      letter-spacing: -0.03em;
     }
 
     .img-responsive.mobile {
@@ -334,7 +338,8 @@
 
     .slash {
       display: inline;
-      font-size: 43px;
+      font-size: 36px;
+      letter-spacing: -0.03em;
     }
 
     .projectTitle {
@@ -343,8 +348,10 @@
 
     .projectRole {
       display: block;
-      font-size: 43px;
-      margin-top: -25px;
+      font-size: 36px;
+      letter-spacing: -0.03em;
+      margin-top: -36px;
+      letter-spacing: -0.03em;
       line-height: 1;
     }
 
