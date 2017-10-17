@@ -307,7 +307,11 @@
   and (-webkit-min-device-pixel-ratio: 2) {
 
     .projects.col-6, .info-2.col-6.right{
-      font-size: 40px!important;
+      font-size: 38px!important;
+    }
+
+    #information, #services, #contact, #clients, #credits, #social-media {
+      padding-bottom: 26px!important;
     }
 
     .img-responsive {
@@ -402,6 +406,9 @@
       line-height: 6.3em!important;
     }
 
+    .info-text br {
+      display: none!important;
+    }
 
     .projects, .info-2 {
       font-size: 55px!important;
@@ -416,6 +423,10 @@
       width: 100%!important;
     }
 
+    .about p {
+      font-size: 18px!important;
+    }
+
     .object-fit-cover {
       max-height: 800px!important;
       object-fit: contain!important;
@@ -426,6 +437,11 @@
       padding-bottom: 2em!important;
       width: 100%!important;
       height: 200%!important;
+    }
+
+    .info-text, .services-text, .clients-text, .social-media-text, .contact-text, .credits-text {
+      line-height: 1.22;
+      padding-bottom: 16px;
     }
 }
 
