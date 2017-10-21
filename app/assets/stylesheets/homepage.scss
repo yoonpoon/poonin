@@ -32,12 +32,14 @@
   font-size: 5.2vw;
   letter-spacing: -0.03em;
   font-family: 'executive55_regular';
+  font-variant-ligatures: none;
 }
 
 .info-text {
   font-family: 'executive45_light';
   letter-spacing: -0.03em;
   text-rendering: optimizeLegibility;
+  font-variant-ligatures: none;
 }
 
 .about {
@@ -54,8 +56,9 @@
   color: #600001;
   margin: 0 auto;
   letter-spacing: -.03em;
-  line-height: 0.90em;
+  line-height: 0.95em;
   text-rendering: optimizeLegibility;
+  font-variant-ligatures: none;
 }
 
 .info-wrap {
@@ -63,6 +66,7 @@
   font-size: 42px;
   color: #600001;
   letter-spacing: -.03em;
+  font-variant-ligatures: none;
 }
 
 .info-byline {
@@ -94,9 +98,10 @@ a {
 
 .projects, .info-2 {
   font-family: 'executive45_light';
-  font-size: 24px;
+  font-size: 28px;
   color: #600001;
-  letter-spacing: -.03em;
+  letter-spacing: -.02em;
+  font-variant-ligatures: none;
 }
 
 .img-responsive.mobile {

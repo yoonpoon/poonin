@@ -11,6 +11,7 @@
   letter-spacing: -0.03em;
   padding-bottom: 4.5vw;
   text-align: center;
+  font-variant-ligatures: none;
 }
 
 .img-wrap {
@@ -41,7 +42,8 @@
   font-family: 'executive55_regular';
   font-size: 12vw;
   letter-spacing: -0.03em;
-  line-height: 0.94em;
+  line-height: 0.98em;
+  font-variant-ligatures: none;
 }
 
 .ind-role-header {
@@ -51,17 +53,19 @@
   padding-bottom: 4.5vw;
   font-family: 'executive55_regular';
   text-align: center;
+  font-variant-ligatures: none;
 }
 
 .ind-role-title {
   font-family: 'executive55_regular';
   font-size: 12vw;
   letter-spacing: -0.03em;
+  font-variant-ligatures: none;
 }
 
 .ind-role-title p {
   margin-bottom: 0px;
-  line-height: 0.94em;
+  line-height: 0.98em;
 }
 
 .ind-team-header {
@@ -71,12 +75,13 @@
   padding-bottom: 4.5vw;
   font-family: 'executive55_regular';
   text-align: center;
+  font-variant-ligatures: none;
 }
 
 .ind-team-role {
   font-size: 12vw;
-  line-height: 0.94em;
-  letter-spacing: 0.006em;
+  line-height: 0.98em;
+  letter-spacing: -0.03em;
   padding-bottom: .45em;
 }
 
@@ -84,7 +89,8 @@
   font-family: 'executive55_regular';
   font-size: 12vw;
   letter-spacing: -0.03em;
-  line-height: 0.94em;
+  line-height: 0.98em;
+  font-variant-ligatures: none;
 }
 
 .credit-wrap p {
@@ -114,4 +120,6 @@
 
 .ind-team-name p {
   padding-bottom: .8em;
+  line-height: 1.15em;
+
 }
