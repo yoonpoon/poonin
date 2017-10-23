@@ -119,7 +119,14 @@
 }
 
 .ind-team-name p {
-  padding-bottom: .8em;
-  line-height: 1.15em;
+  line-height: .9em;
+}
 
+.ind-team-name h1 {
+  font-size: 12vw;
+  font-weight: lighter;
+  margin: 0 auto;
+  padding-bottom: .8em;
+  padding-top: .25em;
+  // line-height: 1.15em;
 }
