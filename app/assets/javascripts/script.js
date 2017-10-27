@@ -16,16 +16,3 @@ $('a[href*=\\#]').on('click', function(event){
 });
 
 
-$(window).scroll(function () {
-    console.log($(window).scrollTop());
-    var topDivHeight = $(".object-fit-cover").height();
-    var viewPortSize = $(window).height();
-
-    var triggerAt = 150;
-    var triggerHeight = (topDivHeight - viewPortSize) + triggerAt;
-
-    if ($(window).scrollTop() >= triggerHeight) {
-        $('.fadethisdiv').css('visibility', 'visible').hide().fadeIn();
-        $(this).off('scroll');
-    }
-});
