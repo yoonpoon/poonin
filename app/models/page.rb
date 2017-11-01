@@ -6,5 +6,6 @@ class Page < ContentfulModel::Base
                         :team,
                         :projTitle,
                         :role,
-                        :projectTitle
+                        :projectTitle,
+                        :projectGallery
 end

@@ -3,5 +3,10 @@ class Nav < ContentfulModel::Base
   has_many :pages, class_name: 'Page'
 
   return_nil_for_empty  :content,
-                        :excerpt
+                        :excerpt,
+                        :team,
+                        :projTitle,
+                        :role,
+                        :projectTitle,
+                        :projectGallery
 end
