@@ -4,17 +4,15 @@
 
 .credit-wrap {
   color: #600001;
-  text-align: center;
   padding-top: 5em;
-  width: 80%;
 }
 
 .ind-project-header {
+  text-align: left;
   font-family: 'executive55_regular';
   font-size: 26px;
   letter-spacing: -0.03em;
-  padding-bottom: 4.5vw;
-  text-align: center;
+  padding-bottom: 1.25em;
   font-variant-ligatures: none;
 }
 
@@ -42,6 +40,7 @@
 }
 
 .ind-project-title {
+  text-align: left;
   font-family: 'executive55_regular';
   font-size: 12vw;
   letter-spacing: -0.03em;
@@ -50,16 +49,17 @@
 }
 
 .ind-role-header {
+  text-align: left;
   font-size: 27px;
   letter-spacing: -0.03em;
-  padding-top: 7vw;
-  padding-bottom: 4.5vw;
+  padding-top: 1em;
+  padding-bottom: 1.25em;
   font-family: 'executive55_regular';
-  text-align: center;
   font-variant-ligatures: none;
 }
 
 .ind-role-title {
+  text-align: left;
   font-family: 'executive55_regular';
   font-size: 12vw;
   letter-spacing: -0.03em;
@@ -67,21 +67,28 @@
 }
 
 .ind-role-title p {
+  text-align: left;
   margin-bottom: 0px;
   line-height: 0.98em;
 }
 
+.ind-role-title em {
+  color: #828180;
+  font-style: normal;
+}
+
 .ind-team-header {
+  text-align: left;
   font-size: 27px;
   letter-spacing: -0.03em;
-  padding-top: 7vw;
-  padding-bottom: 4.5vw;
+  padding-top: 1em;
+  padding-bottom: 1.25em;
   font-family: 'executive55_regular';
-  text-align: center;
   font-variant-ligatures: none;
 }
 
 .ind-team-role {
+  text-align: left;
   font-size: 12vw;
   line-height: 0.98em;
   letter-spacing: -0.03em;
@@ -100,6 +107,10 @@
   margin: 0;
 }
 
+.credit-wrap {
+  text-align: left;
+}
+
 .close-wrap {
   background-color: red;
   float: right;
@@ -107,7 +118,7 @@
 
 .close {
   font-size: 28px;
-  color:#828180;
+  color: #828180;
   right: 2.7em;
   top: 1.5em;
 }
@@ -129,7 +140,8 @@
   font-size: 12vw;
   font-weight: lighter;
   margin: 0 auto;
-  padding-bottom: .8em;
-  padding-top: .25em;
+  padding-bottom: .5em;
+  padding-top: 0em;
+  color: #828180;
   // line-height: 1.15em;
 }

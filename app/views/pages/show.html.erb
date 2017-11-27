@@ -11,21 +11,21 @@
 </div>
 
 <% if @page.projectTitle %>
-  <div class="max-width-12 mx-auto credit-wrap">
+  <div class="max-width-12 credit-wrap">
     <div class="ind-project-header">Project —</div>
     <div class="ind-project-title"><%= @page.projectTitle %></div>
   </div>
 <% end %>
 
 <% if @page.role %>
-  <div class="max-width-12 mx-auto credit-wrap">
+  <div class="max-width-12 credit-wrap">
     <div class="ind-role-header">Role —</div>
     <div class="ind-role-title"><%= parse_markdown @page.role %></div>
   </div>
 <% end %>
 
 <% if @page.team %>
-  <div class="max-width-12 mx-auto credit-wrap">
+  <div class="max-width-12 credit-wrap">
     <div class="ind-team-header">Team —</div>
     <div class="ind-team-name"> <%= parse_markdown @page.team %></div>
   </div>
