@@ -19,7 +19,7 @@
               <span class="projectTitle"><%= page.projTitle %></span>
             <% end %>
             <% if page.role %>
-              <span class="projectRole"><%= page.role %></span>
+              <span class="projectRole"><%= parse_markdown page.role %></span>
             <% end %>
         </span>
       <% end %>

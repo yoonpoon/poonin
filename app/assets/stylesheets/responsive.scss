@@ -199,6 +199,19 @@
       line-height: 1;
     }
 
+    .projectRole p {
+      margin-top: 0px;
+    }
+
+    em {
+      font-style: normal;
+      color: #828180;
+    }
+
+    .projectRole p br {
+      display: none;
+    }
+
     .tc {
       text-align: center;
     }
@@ -357,6 +370,19 @@
       margin-top: -36px;
       letter-spacing: -0.03em;
       line-height: 1;
+    }
+
+    .projectRole p {
+      margin-top: 0px;
+    }
+
+    em {
+      font-style: normal;
+      color: #828180;
+    }
+
+    .projectRole p br {
+      display: none;
     }
 
     .tc {
