@@ -4,6 +4,12 @@
   </div>
 </div>
 
+<% if @page.video %>
+  <div class="vid-wrap max-width-12 mx-auto">
+    <%= parse_markdown @page.video %>
+  </div>
+<% end %>
+
 <div class="img-wrap max-width-12 mx-auto">
   <% @page.projectGallery.all? do |asset| %>
     <%= image_tag asset.url(fl: 'progressive'), class: 'object-fit-cover' %>

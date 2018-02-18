@@ -7,5 +7,6 @@ class Page < ContentfulModel::Base
                         :projTitle,
                         :role,
                         :projectTitle,
-                        :projectGallery
+                        :projectGallery,
+                        :video
 end
