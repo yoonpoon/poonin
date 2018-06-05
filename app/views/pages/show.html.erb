@@ -12,7 +12,7 @@
 
 <div class="img-wrap max-width-12 mx-auto">
   <% @page.projectGallery.all? do |asset| %>
-    <%= image_tag asset.url(fl: 'progressive'), class: 'object-fit-cover' %>
+    <%= image_tag asset.url(fl: "progressive"), alt: asset.description, class: 'object-fit-cover' %>
   <% end %>
 </div>
 
